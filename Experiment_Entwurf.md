@@ -70,7 +70,7 @@ Eine Bedingung für Open-Source-Hardware ist die breite Verfügbarkeit von Resso
 ### 3.2 Geräte
 |Menge|Gerät|Typ|
 |-----|-----|---|
-|1 Stk.|Thermohygrometer|Testo H175|
+|1 Stk.|Thermohygrometer|Testo 175H1|
 |1 Stk.|3D-Drucker|Prusa i3 MK3S+|
 
 <br/><br/>
@@ -134,6 +134,9 @@ Der DKD empfiehlt bei der Kalibrierung die Verwendung einer unabhängigen Normal
 #### 3.5.1 Geräte
 |Menge|Geräte|Typ|
 |---|---|---|
+|1 Stk.|Klimaschrank|unbekannt|
+|1 Stk.|Referenzmessgerät|testo 175H1|
+|3 Stk.|Standfüße|selbstbau|
 <br/><br/>
 
 #### 3.5.2 Aufbau

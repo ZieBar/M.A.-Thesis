@@ -64,13 +64,17 @@ Eine Bedingung für Open-Source-Hardware ist die breite Verfügbarkeit von Resso
 |5l|Destilliertes Wasser|-|
 |200 g|PLA (Polyacitid-Gemisch) für 3D-Drucker|-|
 |9 Stk.|Tyvek 16XXX|88 x 174 mm|
+
 <br/><br/>
+
 ### 3.2 Geräte
 |Menge|Gerät|Typ|
 |-----|-----|---|
 |1 Stk.|Thermohygrometer|Testo H175|
 |1 Stk.|3D-Drucker|Prusa i3 MK3S+|
+
 <br/><br/>
+
 ### 3.3 Aufbau
 
 #### 3.3.1 Dämmung

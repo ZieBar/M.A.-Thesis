@@ -129,14 +129,14 @@ Nach dem Angleichzeit und Messzeitraum bestimmt wurden, werden die Sensoren mit 
 
 <br/><br/>
 
-### 4 Annäherung an die Kalibrierung mit Klimaschrank
+## 4 Annäherung an die Kalibrierung mit Klimaschrank
 Kalibrierverfahren mit Klimaschrank sind nach der Richtlinie des DKD zulässig, verlangen aber einen hohen Aufwand. Die Methode könnte hier Verwendung finden um die Verlässlichkeit der Salzlösungsmethode zu prüfen. Zusätzlich ist der Ablauf A1 ist besonders interessant, da er als einziger in der Lage ist Hysterese Effekte darzustellen, welche auch bei den Salzlösungen nicht dargestellt werden können.
 Die Möglichkeit die Sensoren auch bei verschiedenen Temperaturen (z.B. 10°C, 20°C, 30°C und 40°C) zu testen ist ein weiterer Vorteil dieser Methode. So könnte auch die Anwendung in extremerem Klima oder im denkmalpflegerischen Kontext simuliert werden.
 Der DKD empfiehlt bei der Kalibrierung die Verwendung einer unabhängigen Normale zur Referenzwertbestimmung. Zusätzlich müssen Einflussfaktoren, wie z.B. die räumliche Inhomogenität, bestimmt werden. 
 
 <br/><br/>
 
-#### 3.5.1 Geräte
+### 4.1 Geräte
 |Menge|Geräte|Typ|
 |---|---|---|
 |1 Stk.|Klimaschrank|unbekannt|
@@ -144,12 +144,12 @@ Der DKD empfiehlt bei der Kalibrierung die Verwendung einer unabhängigen Normal
 |3 Stk.|Standfüße|selbstbau|
 <br/><br/>
 
-#### 3.5.2 Aufbau
+### 4.2 Aufbau
 Je nach Aufbau des Klimaschrnks werden die Sensoren und das Referenzgerät im Inneren des Schrankes platziert. Das Referenzgerät liegt misst dabei im Zentrum des Kalibriervolumens.
 
 <br/><br/>
 
-#### 3.5.3 Ablauf
+### 4.3 Ablauf
 Der Ablauf der DKD-R 5-8 wird als Vorbild für dieses Experiment genommen. Der Ausgangspunkt S0 muss dabei 5% unterhalb des niedrigsten Wertes N1a bzw. N1b liegen. Für jede gewählte Temperatur müsste dann ein Durchlauf gemacht werden.
 Zunächst muss, wie bei Möglichkeit 1 die Angleichzeit bestimmt werden. Der Wert wird dann für eine halbe Stunde gehalten, wobei pro Minute eine Messung erfolgt. 
 
@@ -158,9 +158,27 @@ Abbildung aus der DKD-R 5-8
 
 <br/><br/>
 
+#### 4.3.1 Einflussgrößen
+
+- Räumliche Inhomogenität
+- Zeitliche Instabilität
+- Strahlungseinfluss 
+- Druckdifferenz
+- Strömungsverhältnisse (positionierung der Bezugsnormale und Kalibreirgegenstand parrallel zur Strömungsrichtung)
+- Rückwirkungen (z.b. Eigenerwärmung)
+
+##### 4.3.1.1 Räumliche Inhomogenität
+Messungen von Temperatur und Luftfeuchtigkeit müssen am Referenzmessort und an den vorgesehenen Messpunkten vorgenommen werden. Abweichung und Verteilung müssen erfasst werden.
+
+##### 4.3.1.2 Zeitliche Instabilität
+Zur Erfassung der zeitlichen Instabilität müssen mindestens 30 Messungen in 30 Minuten in regelmäßigen Abständen erfolgen.
+
+
+ <br/><br/>
+
 ---
 
-## 4 Auswertung
+## 5 Auswertung
 Die Auswertung erfolgt mit Excel, LibreClac, Python oder R. Dabei ist auf folgende Parameter zu achten:
 - Genauigkeit (Wie nah ist der Mittelwert aller Messungen am realen Wert?)
 - Präzision (Wie nah liegen die Werte beieinander?)

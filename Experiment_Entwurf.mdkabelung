@@ -26,16 +26,17 @@ Die Menge der vorhandenen und benötigten Pins bei den µCUs und den Sensoren er
 
 Außer dem SHT41 und dem SHT85 haben alle Sensoren mit I2C eine sekundäre I2C-Adresse, diese kann über den ADDR- (STH) bzw. SDO- (BME) Pin aktiviert werden. Da mehr als zwei Sensoren ausgelesen werden müssen, wird im Programm nur die sekundäre Adresse abgefragt. Diese wird sukzessive bei den einzelnen Sensoren Aktiviert. 
 
-![](https://pad.sbb.spk-berlin.de/uploads/upload_2143bdc4721b52e9c1503104ba039d42.jpg)
+![Verkabelung der Sensoren SHT31 und BME 280](https://pad.sbb.spk-berlin.de/uploads/upload_2143bdc4721b52e9c1503104ba039d42.jpg)
+
 Die Sensoren BME280 und SHT31 haben sekundäre i2C-Adressen, welche durch die Verbindung des SOD bzw. ADDR aktiviert werden können. Dies geschieht hier durch die violett dargestellten Kabel, welche jeweils mit einem digitalen Pin Verbunden sind. Diese können sukzessive ein oder ausgeschaltet werden.
 
 
-![](https://pad.sbb.spk-berlin.de/uploads/upload_4d5af4174012a01d583da3cd989112b3.jpg)
+![Verkabeluing der Sensoren BME680 und DHT22](https://pad.sbb.spk-berlin.de/uploads/upload_4d5af4174012a01d583da3cd989112b3.jpg)
 
 Der DHT22 kann durch das One-Wire Protokoll problemlos durch den jeweiligen Digitalen pin ausgelesen werden.
 
 
-![](https://pad.sbb.spk-berlin.de/uploads/upload_b07666070f8f43ca64331931d257e6f8.jpg)
+![Verkabelung der Sensoren SHt41 und SHT85](https://pad.sbb.spk-berlin.de/uploads/upload_b07666070f8f43ca64331931d257e6f8.jpg)
 
 Im Falle des SHT41 und ST85 muss ein Multiplexer für das Auslesen dazwischengeschaltet werden.
 
@@ -74,9 +75,7 @@ Eine Übersättigung muss vermieden werden.
 
 Pro Box werden drei Standfüße (180 x 88 x 45 mm) eingesetzt, sodass die Sensoren und das Referenzgerät oberhalb der Salzlösungen liegen. Diese werden mit dem 3D-Drucker hergestellt und zusammengebaut. 
 
-![](https://pad.sbb.spk-berlin.de/uploads/upload_45b06e268034e3988555f1b6681bc004.jpg)
-
-
+![](https://github.com/ZieBar/M.A.-Thesis/blob/main/_DSC3610.jpg)
 
 Das herausnehmbare Gitter soll dazu dienen, eine wasserdampfdurchläßige Membran aus Tyvek® zum Schutz der Sensoren einzulegen.
 

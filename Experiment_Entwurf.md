@@ -1,50 +1,59 @@
 # Experiment-Vorschlag
-## Einleitung
+## 1 Einleitung
 Für Free-Open-Source-Datenlogger gibt es eine Reihe möglicher Sensoren. In den meisten Projekten, kommt jedoch nur ein einziger zum Einsatz. Größtenteils ist die Methode zur Untersuchung der Genauigkeit und Verlässlichkeit der Sensoren problematisch. Die Kalibrierung (die Bestimmung der Messungenauigkeiten einer Messeinrichtung) ist ein komplexer Vorgang. Die Richtlinie DKD-R 5-8 des Deutsche Kalibrierdienst (DKD) beschäftigt sich mit dem Kalibrieren von Hygrometern zur direkten Erfassung der relativen Feuchte. Zwei Methoden wären im Rahmen dieser Masterarbeit mit den zur Verfügung stehenden Ressourcen durchführbar:
 -	Kalibrierung im Klimaschrank nach Ablauf A1 (Siehe DKD-R 5-8, Kapitel 9.3.2) 
 -	Salzlösungen (explizit angegeben als nicht zur Kalibrierung geeignet, aber für Kontrollen ausreichend)
 	
 Eine Norm-gerechte Kalibrierung der Sensoren scheint im Rahmen dieser Masterarbeit nicht bzw. nicht in Eigenleistung möglich zu sein. Die beiden Methoden können jedoch genutzt werden um einen annähernden Eindruck der Qualität der Sensoren zu bekommen
 
-## Messaufbau
+---
+
+## 2 Messaufbau
 
 Die Verkabelung und das Messprinzip bleibt bei beiden Möglichkeiten gleich und wird daher hier nur einmal zusammengefasst.
 Insgesamt wurden 6 Sensortypen ausgewählt. Von jedem Typ wurden jeweils 3 Exemplare beschafft. Insgesamt müssen also die Daten von 18 Sensoren erfasst und ausgewertet werden.
+<br/><br/>
 |Sensoren |	DHT22	| BME280	| BME680	| SHT31	| SHT41	| SHT85 |
 |---------|---------|-----------|-----------|-------|-------|-------|
 |Kommunikation |	One-Wire	| SPI, I2C	| SPI, I2C	| SPI, I2C	| SPI, I2C	| SPI, I2C |#
 
-
+<br/><br/>
 Als Microcontroller-Unit (µCU) wurde der ESP8266 gewählt. Dieser hat den Vorteil, dass er mit WiFi ausgestattet ist und so verschiedene Wege der Kommunikation ermöglicht.
 Die Menge der vorhandenen und benötigten Pins bei den µCUs und den Sensoren ermöglicht jedoch nur eine Verbindung zu maximal 6 Sensoren pro µCU. Daher müssen mehrere µCUs eingesetzt werden. Diese könnten die Daten einen zentralen µCU senden, welcher die Daten auf einer SD-Karte speichert.
+<br/><br/>
 
-
-![Schematische Darstellung des Messaparats](https://pad.sbb.spk-berlin.de/uploads/upload_90282ace48bb6c56694ed8611a43bd28.jpg)
-
-
+![Schematische Darstellung des Messaparats](https://private-user-images.githubusercontent.com/133433673/244176352-2a19a4f3-1f4c-4515-935c-c05821b03551.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY2NzUzLCJuYmYiOjE2ODYxNjY0NTMsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM1Mi0yYTE5YTRmMy0xZjRjLTQ1MTUtOTM1Yy1jMDU4MjFiMDM1NTEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMTkzNDEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MTcxMTlmY2I4NWRmNzljYjU4NGZkMjU1NjViNTk2NTFjYjJjNTc0MzUyOGNhOWRjOWQ1ZmJiNGYxZDU0MTZmZCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.ZYyDsrA8qcZsCwZpWU3qDHtwDmB8Dn-5ygtlfA8kDGY)
 
 
 Außer dem SHT41 und dem SHT85 haben alle Sensoren mit I2C eine sekundäre I2C-Adresse, diese kann über den ADDR- (STH) bzw. SDO- (BME) Pin aktiviert werden. Da mehr als zwei Sensoren ausgelesen werden müssen, wird im Programm nur die sekundäre Adresse abgefragt. Diese wird sukzessive bei den einzelnen Sensoren Aktiviert. 
+<br/><br/>
 
-![Verkabelung der Sensoren SHT31 und BME 280](https://pad.sbb.spk-berlin.de/uploads/upload_2143bdc4721b52e9c1503104ba039d42.jpg)
+![Verkabelung der Sensoren SHT31 und BME 280](https://private-user-images.githubusercontent.com/133433673/244176356-4fbcd460-229d-46ff-bd6a-ba4dc4124ad3.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY2NzUzLCJuYmYiOjE2ODYxNjY0NTMsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM1Ni00ZmJjZDQ2MC0yMjlkLTQ2ZmYtYmQ2YS1iYTRkYzQxMjRhZDMuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMTkzNDEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NGJiODM4MDAwYzhjNDQ1ZWJhY2E0ZDI3NzkxNDY1ZmFhNzNhNjExMTc4YzYzMWIyYjZiYmM3MjZhNGYwZDZkOCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ._TtT-dFxAXPnzXK5gVq5lYrnG2lfgdooSYAlq1bHrG4)
+
+<br/><br/>
 
 Die Sensoren BME280 und SHT31 haben sekundäre i2C-Adressen, welche durch die Verbindung des SOD bzw. ADDR aktiviert werden können. Dies geschieht hier durch die violett dargestellten Kabel, welche jeweils mit einem digitalen Pin Verbunden sind. Diese können sukzessive ein oder ausgeschaltet werden.
+<br/><br/>
+
+![Verkabeluing der Sensoren BME680 und DHT22](https://private-user-images.githubusercontent.com/133433673/244177902-0ce25354-85b3-4775-b3a7-977d44bb2fda.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY2ODczLCJuYmYiOjE2ODYxNjY1NzMsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NzkwMi0wY2UyNTM1NC04NWIzLTQ3NzUtYjNhNy05NzdkNDRiYjJmZGEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMTkzNjEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YzQzMjY3MjZjNGMyNGM4MDdkNzJmNGZjMzkzNTc2ZjQzZWIzMmZmZjY3NGVlNDg2MTdiMzRhNDAzYzVmOGQ2YSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.DiX4OrxI0ezoRoAk-fbVI8HFWYOI-z7NLPNnT360-Kw)
 
 
-![Verkabeluing der Sensoren BME680 und DHT22](https://pad.sbb.spk-berlin.de/uploads/upload_4d5af4174012a01d583da3cd989112b3.jpg)
 
 Der DHT22 kann durch das One-Wire Protokoll problemlos durch den jeweiligen Digitalen pin ausgelesen werden.
 
-
-![Verkabelung der Sensoren SHt41 und SHT85](https://pad.sbb.spk-berlin.de/uploads/upload_b07666070f8f43ca64331931d257e6f8.jpg)
+<br/><br/>
+![Verkabelung der Sensoren SHt41 und SHT85](https://private-user-images.githubusercontent.com/133433673/244176365-f14bc21c-0c62-44ba-99b2-d46596d0c71a.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY2NzUzLCJuYmYiOjE2ODYxNjY0NTMsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM2NS1mMTRiYzIxYy0wYzYyLTQ0YmEtOTliMi1kNDY1OTZkMGM3MWEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMTkzNDEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MjE2OGExNWIzZGZiMWEzMTQwMDQ3ZjJhZTUzOTkyZDdmZWJiODMxMTNiZTJlYjk4M2I5NDM3NTFmZmIyMjBmMSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.FhnDZ3-0zVk0VltL5NStkaag8gccnxZjiOag_P6yIvs)
 
 Im Falle des SHT41 und ST85 muss ein Multiplexer für das Auslesen dazwischengeschaltet werden.
 
-## Prüfung mit gesättigten Salzlösungen 
+<br/><br/>
+
+---
+## 3 Prüfung mit gesättigten Salzlösungen 
 
 Eine Bedingung für Open-Source-Hardware ist die breite Verfügbarkeit von Ressourcen zur Herstellung der Geräte. Die Kalibrierung oder zumindest Prüfung der Sensoren ist in diesem Fall ein wichtiger Teil der Herstellung. Salze wie Natriumchlorid (NaCl) Magnesium Chlorid Hexahydrat (MgCl2 · H2O) und Kaliumcarbonat K2CO3 sind einfach verfügbar und generieren durch die Deliqueszenzfeuchte Luftfeuchtigkeit, welche relativ Temperaturunabhängig sind. Jedoch sind sie nach den vorgaben des Deutschen Kalibrierdienstes nicht für Kalibrierungen geeignet. Bei adequater Nutzung sind sie jedoch für die Überprüfung von Sensoren ausreichend.
-
-### Material
+<br/><br/>
+### 3.1 Material
 |Menge|Material|Dimensionen|
 |-----|--------|-----------|
 |3 Stk.|Box mit Deckel und Dichtungsring (Polypropylen)|5,2 l|
@@ -55,38 +64,43 @@ Eine Bedingung für Open-Source-Hardware ist die breite Verfügbarkeit von Resso
 |5l|Destilliertes Wasser|-|
 |200 g|PLA (Polyacitid-Gemisch) für 3D-Drucker|-|
 |9 Stk.|Tyvek 16XXX|88 x 174 mm|
-
-### Geräte
+<br/><br/>
+### 3.2 Geräte
 |Menge|Gerät|Typ|
 |-----|-----|---|
 |1 Stk.|Thermohygrometer|Testo H175|
 |1 Stk.|3D-Drucker|Prusa i3 MK3S+|
+<br/><br/>
+### 3.3 Aufbau
 
-### Aufbau
-
-#### Dämmung
+#### 3.3.1 Dämmung
 Aus den Dämmplatten wird eine Box von X x X mm gebaut. Darin werden die drei PP-Boxen positioniert. Die äußere Box dient zur thermischen Stabilisierung des Versuchsaufbaus. Ggf. kann diese durch das Auffüllen der Leerräume noch erhöht werden. 
-
-#### Ansetzen der Lösungen
+<br/><br/>
+#### 3.3.2 Ansetzen der Lösungen
 Die drei PP-Boxen werden zunächst abgewaschen, mit destilliertem Wasser ausgespült und anschließend mit einem Faserfreiem Tuch getrocknet. Anschließend wird in jeweils eine der Boxen ein Salz eingefüllt bis der Boden bedeckt ist welches dann mit destilliertem Wasser benetzt wird, bis eine trüber Mischung entsteht. 
-Eine Übersättigung muss vermieden werden.
+Eine Übersättigung muss vermieden werden. 
+<br/><br/>
 
-#### Herstellung der Standfüße
+#### 3.3.3 Herstellung der Standfüße
 
 Pro Box werden drei Standfüße (180 x 88 x 45 mm) eingesetzt, sodass die Sensoren und das Referenzgerät oberhalb der Salzlösungen liegen. Diese werden mit dem 3D-Drucker hergestellt und zusammengebaut. 
-
-![](https://github.com/ZieBar/M.A.-Thesis/blob/main/_DSC3610.jpg)
-
 Das herausnehmbare Gitter soll dazu dienen, eine wasserdampfdurchläßige Membran aus Tyvek® zum Schutz der Sensoren einzulegen.
 
-#### Positionierung der Sensoren
+
+![](https://private-user-images.githubusercontent.com/133433673/244176387-555a0cc5-8fc8-4c4b-bd34-38ee3950bccc.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY2ODc1LCJuYmYiOjE2ODYxNjY1NzUsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM4Ny01NTVhMGNjNS04ZmM4LTRjNGItYmQzNC0zOGVlMzk1MGJjY2MuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMTkzNjE1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjY3ZGU5Yjk1OTA2MzlhY2JmZDhmMDFiMWI0OTA2YjE5OGFjZmI1NDU5ZTNmZWEwNWJhYjY0NjBmZjliZDgxMiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.Fpj44Fr9gGLuzIcbMJfDZCJ7tatNp2h2QBIeIaIj6HI)
+
+<br/><br/>
+
+#### 3.3.4 Positionierung der Sensoren
 Da nur ein Referenzgerät zur Verfügung steht, musste der ursprüngliche Messaufbau abgewandelt werden. Nun sollen alle Sensoren gelichzeitig und zusammen mit dem Messgerät in jeweils einer Box positioniert werden. Das Referenzmessgerät wird in der Mitte aufgestellt, während die Breadboards an die Seiten kommen
 Die Sensoren können dann mit Verlängerungskabeln ebenfalls in der Mitte positioniert werden, wodurch ein Raum von ca. 175x90x60mm in der Mitte der Box zum eigentlichen Kalibriervolumen wird.
 
-![](https://pad.sbb.spk-berlin.de/uploads/upload_8562ba412255e9b17369ac0d462e3856.jpg)
+![](https://private-user-images.githubusercontent.com/133433673/244176377-04f6b9c8-d196-4e64-a4d7-2ac5352bc8b8.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY2ODc1LCJuYmYiOjE2ODYxNjY1NzUsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM3Ny0wNGY2YjljOC1kMTk2LTRlNjQtYTRkNy0yYWM1MzUyYmM4YjguanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMTkzNjE1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OGRhMzczMjI2NmVhMDQ2ODNjNWE3ZTNiOWE3MDE4NGEzZDkwN2M1YTkxNWY2MzgxNWE1MmZiMzVlNjllOWE0YyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.L3Hy1KcDkw0bx8zeZHxxAzAsskPdnm8WbuhZpckGbdI)
 
-### Ablauf
-#### Berechnen der Angeleichzeit und Messzeitraum
+<br/><br/>
+
+### 3.4 Ablauf
+#### 3.4.1 Berechnen der Angeleichzeit und Messzeitraum
 Als erstes muss die Angleichszeit bestimmt werden, in der das Feuchtigkeitsgleichgewicht in der Box hergestellt wird. Diese ist abhängig vom Volumen und der Dichtigkeit der Box, sowie dem Luftstrom und der zu erreichenden Zielfeuchte.  
 Hierfür wird die Salzlösung angesetzt, die Füße eingesetzt und der Testo H175 mittig platziert. Visuell kann über das Display des Referenzgerätes das Erreichen der Zielfeuchte kontrolliert und die Daten anschließend ausgewertet werden.
 Der Vorgang wird in jeder Box wiederholt. Ggf. kann der Versuch mit und ohne Membran wiederholt werden.
@@ -99,28 +113,45 @@ III) Messwertaufnahme, mind. 10 Messwerte in 10 Minuten
 IV) Wartezeit von 10 Minuten
 V) Wiederholung von III
 
-#### Messung
+<br/><br/>
+
+#### 3.4.2 Messung
 Nach dem Angleichzeit und Messzeitraum bestimmt wurden, werden die Sensoren mit dem Messgerät in eine Box gelegt und der versuch begonnen. Dies wird für jede der 3 Luftfeuchtigkeiten wiederholt.
 
-### Annäherung an die Kalibrierung mit Klimaschrank
+<br/><br/>
+
+### 3.5 Annäherung an die Kalibrierung mit Klimaschrank
 Kalibrierverfahren mit Klimaschrank sind nach der Richtlinie des DKD zulässig, verlangen aber einen hohen Aufwand. Die Methode könnte hier Verwendung finden um die Verlässlichkeit der Salzlösungsmethode zu prüfen. Zusätzlich ist der Ablauf A1 ist besonders interessant, da er als einziger in der Lage ist Hysterese Effekte darzustellen, welche auch bei den Salzlösungen nicht dargestellt werden können.
 Die Möglichkeit die Sensoren auch bei verschiedenen Temperaturen (z.B. 10°C, 20°C, 30°C und 40°C) zu testen ist ein weiterer Vorteil dieser Methode. So könnte auch die Anwendung in extremerem Klima oder im denkmalpflegerischen Kontext simuliert werden.
 Der DKD empfiehlt bei der Kalibrierung die Verwendung einer unabhängigen Normale zur Referenzwertbestimmung. Zusätzlich müssten Einflussfaktoren, wie z.B. die räumliche Inhomogenität durch mind. 5 verschiedene Messunkte im Kalibriervolumen, bestimmt werden. 
 
-#### Geräte
+<br/><br/>
 
-#### Aufbau
+#### 3.5.1 Geräte
+|Menge|Geräte|Typ|
+|---|---|---|
+<br/><br/>
 
-#### Ablauf
+#### 3.5.2 Aufbau
 
-## Auswertung
+<br/><br/>
+
+#### 3.5.3 Ablauf
+
+<br/><br/>
+
+---
+
+## 4 Auswertung
 Die Auswertung erfolgt mit Excel, LibreClac, Python oder R. Dabei ist auf folgende Parameter zu achten:
 - Genauigkeit (wie nah ist der Mittelwert aller Messungen am realen Wert?)
 - Präzision (wie nah liegen die Werte beieinander?)
 - Verteilung (liegen die Messungen häufiger in einem bestimmten Bereich?)
 - Hysterese ()
 
-## offene Fragen
+---
+
+## 5 offene Fragen
 Der Klimaschrank ermöglicht viele Variationen. Daher muss hier priorisiert werden. 
 
 - [ ] Wiederholung der Versuche mit längeren Messzeiträumen zur Validierung der Methoden?

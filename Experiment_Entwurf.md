@@ -111,11 +111,15 @@ Der Vorgang wird in jeder Box wiederholt. Ggf. kann der Versuch mit und ohne Mem
 .
 Nach DKD-R 5-8 wird die angleich und Messzeitraum wiefolgt bestimmt:
 
-I) Erreichen einer Abweichung von <2% der Relativen Luftfeuchte oder 2°K vom Sollwert
-II) WarteZeit von mind. 30 min
-III) Messwertaufnahme, mind. 10 Messwerte in 10 Minuten
-IV) Wartezeit von 10 Minuten
-V) Wiederholung von III
+![Angleichszeit und Messzeitraum nacb DKD-R 5-8](https://private-user-images.githubusercontent.com/133433673/244176372-07c4bfab-b553-4b29-8984-d4c85c7a048a.JPG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY4NzYzLCJuYmYiOjE2ODYxNjg0NjMsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM3Mi0wN2M0YmZhYi1iNTUzLTRiMjktODk4NC1kNGM4NWM3YTA0OGEuSlBHP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMjAwNzQzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjQwZmViMmVjZGY0NzBkZDk1ZDVkYzA1MjRkYmY2OTY0Zjc2YjEyMmEwNzIzZmFiZTIyNTA4YWVlNmRkMmQ5OSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.dW6_nU3ncu6SFp9AU0LRXi9j0zFU8JPWTflv6KtOXRY)
+
+
+
+I) Erreichen einer Abweichung von <2% der Relativen Luftfeuchte oder 2°K vom Sollwert  
+II) WarteZeit von mind. 30 min  
+III) Messwertaufnahme, mind. 10 Messwerte in 10 Minuten  
+IV) Wartezeit von 10 Minuten  
+V) Wiederholung von III  
 
 <br/><br/>
 
@@ -124,7 +128,7 @@ Nach dem Angleichzeit und Messzeitraum bestimmt wurden, werden die Sensoren mit 
 
 <br/><br/>
 
-### 3.5 Annäherung an die Kalibrierung mit Klimaschrank
+### 4 Annäherung an die Kalibrierung mit Klimaschrank
 Kalibrierverfahren mit Klimaschrank sind nach der Richtlinie des DKD zulässig, verlangen aber einen hohen Aufwand. Die Methode könnte hier Verwendung finden um die Verlässlichkeit der Salzlösungsmethode zu prüfen. Zusätzlich ist der Ablauf A1 ist besonders interessant, da er als einziger in der Lage ist Hysterese Effekte darzustellen, welche auch bei den Salzlösungen nicht dargestellt werden können.
 Die Möglichkeit die Sensoren auch bei verschiedenen Temperaturen (z.B. 10°C, 20°C, 30°C und 40°C) zu testen ist ein weiterer Vorteil dieser Methode. So könnte auch die Anwendung in extremerem Klima oder im denkmalpflegerischen Kontext simuliert werden.
 Der DKD empfiehlt bei der Kalibrierung die Verwendung einer unabhängigen Normale zur Referenzwertbestimmung. Zusätzlich müssten Einflussfaktoren, wie z.B. die räumliche Inhomogenität durch mind. 5 verschiedene Messunkte im Kalibriervolumen, bestimmt werden. 
@@ -140,6 +144,7 @@ Der DKD empfiehlt bei der Kalibrierung die Verwendung einer unabhängigen Normal
 <br/><br/>
 
 #### 3.5.2 Aufbau
+Je nach Aufbau des Klimaschrnks werden die Sensoren und das Referenzgerät im Inneren des Schrankes platziert. Das Referenzgerät liegt misst dabei im Zentrum des Kalibriervolumens.
 
 <br/><br/>
 

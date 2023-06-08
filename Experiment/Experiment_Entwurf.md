@@ -1,5 +1,7 @@
-# Experiment-Vorschlag
-## 1 Einleitung
+Experiment-Vorschlag
+===
+
+# 1 Einleitung
 Für Free-Open-Source-Datenlogger gibt es eine Reihe möglicher Sensoren. In den meisten Projekten, kommt jedoch nur ein einziger zum Einsatz. Größtenteils ist die Methode zur Untersuchung der Genauigkeit und Verlässlichkeit der Sensoren problematisch. Die Kalibrierung (die Bestimmung der Messungenauigkeiten einer Messeinrichtung) ist ein komplexer Vorgang. Die Richtlinie DKD-R 5-8 des Deutsche Kalibrierdienst (DKD) beschäftigt sich mit dem Kalibrieren von Hygrometern zur direkten Erfassung der relativen Feuchte. Zwei Methoden wären im Rahmen dieser Masterarbeit mit den zur Verfügung stehenden Ressourcen durchführbar:
 -	Kalibrierung im Klimaschrank nach Ablauf A1 (Siehe DKD-R 5-8, Kapitel 9.3.2) 
 -	Salzlösungen (explizit angegeben als nicht zur Kalibrierung geeignet, aber für Kontrollen ausreichend)
@@ -8,7 +10,7 @@ Eine Norm-gerechte Kalibrierung der Sensoren scheint im Rahmen dieser Masterarbe
 
 ---
 
-## 2 Messaufbau
+# 2 Messaufbau
 
 Die Verkabelung und das Messprinzip bleibt bei beiden Möglichkeiten gleich und wird daher hier nur einmal zusammengefasst.
 Insgesamt wurden 6 Sensortypen ausgewählt. Von jedem Typ wurden jeweils 3 Exemplare beschafft. Insgesamt müssen also die Daten von 18 Sensoren erfasst und ausgewertet werden.
@@ -49,11 +51,11 @@ Im Falle des SHT41 und ST85 muss ein Multiplexer für das Auslesen dazwischenges
 <br/><br/>
 
 ---
-## 3 Prüfung mit gesättigten Salzlösungen 
+# 3 Prüfung mit gesättigten Salzlösungen 
 
 Eine Bedingung für Open-Source-Hardware ist die breite Verfügbarkeit von Ressourcen zur Herstellung der Geräte. Die Kalibrierung oder zumindest Prüfung der Sensoren ist in diesem Fall ein wichtiger Teil der Herstellung. Salze wie Natriumchlorid (NaCl) Magnesium Chlorid Hexahydrat (MgCl2 · H2O) und Kaliumcarbonat K2CO3 sind einfach verfügbar und generieren durch die Deliqueszenzfeuchte Luftfeuchtigkeit, welche relativ Temperaturunabhängig sind. Jedoch sind sie nach den vorgaben des Deutschen Kalibrierdienstes nicht für Kalibrierungen geeignet. Bei adequater Nutzung sind sie jedoch für die Überprüfung von Sensoren ausreichend.
 <br/><br/>
-### 3.1 Material
+## 3.1 Material
 |Menge|Material|Dimensionen|
 |-----|--------|-----------|
 |3 Stk.|Box mit Deckel und Dichtungsring (Polypropylen)|5,2 l|
@@ -67,7 +69,7 @@ Eine Bedingung für Open-Source-Hardware ist die breite Verfügbarkeit von Resso
 
 <br/><br/>
 
-### 3.2 Geräte
+## 3.2 Geräte
 |Menge|Gerät|Typ|
 |-----|-----|---|
 |1 Stk.|Thermohygrometer|Testo 175H1|
@@ -75,17 +77,17 @@ Eine Bedingung für Open-Source-Hardware ist die breite Verfügbarkeit von Resso
 
 <br/><br/>
 
-### 3.3 Aufbau
+## 3.3 Aufbau
 
-#### 3.3.1 Dämmung
+### 3.3.1 Dämmung
 Aus den Dämmplatten wird eine Box von X x X mm gebaut. Darin werden die drei PP-Boxen positioniert. Die äußere Box dient zur thermischen Stabilisierung des Versuchsaufbaus. Ggf. kann diese durch das Auffüllen der Leerräume noch erhöht werden. 
 <br/><br/>
-#### 3.3.2 Ansetzen der Lösungen
+### 3.3.2 Ansetzen der Lösungen
 Die drei PP-Boxen werden zunächst abgewaschen, mit destilliertem Wasser ausgespült und anschließend mit einem Faserfreiem Tuch getrocknet. Anschließend wird in jeweils eine der Boxen ein Salz eingefüllt bis der Boden bedeckt ist welches dann mit destilliertem Wasser benetzt wird, bis eine trüber Mischung entsteht. 
 Eine Übersättigung muss vermieden werden. 
 <br/><br/>
 
-#### 3.3.3 Herstellung der Standfüße
+### 3.3.3 Herstellung der Standfüße
 
 Pro Box werden drei Standfüße (180 x 88 x 45 mm) eingesetzt, sodass die Sensoren und das Referenzgerät oberhalb der Salzlösungen liegen. Diese werden mit dem 3D-Drucker hergestellt und zusammengebaut. 
 Das herausnehmbare Gitter soll dazu dienen, eine wasserdampfdurchläßige Membran aus Tyvek® zum Schutz der Sensoren einzulegen.
@@ -95,7 +97,7 @@ Das herausnehmbare Gitter soll dazu dienen, eine wasserdampfdurchläßige Membra
 
 <br/><br/>
 
-#### 3.3.4 Positionierung der Sensoren
+### 3.3.4 Positionierung der Sensoren
 Da nur ein Referenzgerät zur Verfügung steht, musste der ursprüngliche Messaufbau abgewandelt werden. Nun sollen alle Sensoren gelichzeitig und zusammen mit dem Messgerät in jeweils einer Box positioniert werden. Das Referenzmessgerät wird in der Mitte aufgestellt, während die Breadboards an die Seiten kommen
 Die Sensoren können dann mit Verlängerungskabeln ebenfalls in der Mitte positioniert werden, wodurch ein Raum von ca. 175x90x60mm in der Mitte der Box zum eigentlichen Kalibriervolumen wird.
 
@@ -103,8 +105,8 @@ Die Sensoren können dann mit Verlängerungskabeln ebenfalls in der Mitte positi
 
 <br/><br/>
 
-### 3.4 Ablauf
-#### 3.4.1 Berechnen der Angeleichzeit und Messzeitraum
+## 3.4 Ablauf
+### 3.4.1 Berechnen der Angeleichzeit und Messzeitraum
 Als erstes muss die Angleichszeit bestimmt werden, in der das Feuchtigkeitsgleichgewicht in der Box hergestellt wird. Diese ist abhängig vom Volumen und der Dichtigkeit der Box, sowie dem Luftstrom und der zu erreichenden Zielfeuchte.  
 Hierfür wird die Salzlösung angesetzt, die Füße eingesetzt und der Testo H175 mittig platziert. Visuell kann über das Display des Referenzgerätes das Erreichen der Zielfeuchte kontrolliert und die Daten anschließend ausgewertet werden.
 Der Vorgang wird in jeder Box wiederholt. Ggf. kann der Versuch mit und ohne Membran wiederholt werden.
@@ -112,7 +114,7 @@ Der Vorgang wird in jeder Box wiederholt. Ggf. kann der Versuch mit und ohne Mem
 Nach DKD-R 5-8 wird die angleich und Messzeitraum wiefolgt bestimmt:
 
 ![Angleichszeit und Messzeitraum nacb DKD-R 5-8](https://private-user-images.githubusercontent.com/133433673/244176372-07c4bfab-b553-4b29-8984-d4c85c7a048a.JPG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY4NzYzLCJuYmYiOjE2ODYxNjg0NjMsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM3Mi0wN2M0YmZhYi1iNTUzLTRiMjktODk4NC1kNGM4NWM3YTA0OGEuSlBHP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMjAwNzQzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjQwZmViMmVjZGY0NzBkZDk1ZDVkYzA1MjRkYmY2OTY0Zjc2YjEyMmEwNzIzZmFiZTIyNTA4YWVlNmRkMmQ5OSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.dW6_nU3ncu6SFp9AU0LRXi9j0zFU8JPWTflv6KtOXRY)
-Abbildung aus der DKD-R 5-8
+Abbildung aus der DKD-R 5-8. This picture is lisenced under cc by-nc-nd-license.
 
 <br/><br/>
 
@@ -124,19 +126,19 @@ V) Wiederholung von III
 
 <br/><br/>
 
-#### 3.4.2 Messung
+### 3.4.2 Messung
 Nach dem Angleichzeit und Messzeitraum bestimmt wurden, werden die Sensoren mit dem Messgerät in eine Box gelegt und der versuch begonnen. Dies wird für jede der 3 Luftfeuchtigkeiten wiederholt.
 
 <br/><br/>
 
-## 4 Annäherung an die Kalibrierung mit Klimaschrank
+# 4 Annäherung an die Kalibrierung mit Klimaschrank
 Kalibrierverfahren mit Klimaschrank sind nach der Richtlinie des DKD zulässig, verlangen aber einen hohen Aufwand. Die Methode könnte hier Verwendung finden um die Verlässlichkeit der Salzlösungsmethode zu prüfen. Zusätzlich ist der Ablauf A1 ist besonders interessant, da er als einziger in der Lage ist Hysterese Effekte darzustellen, welche auch bei den Salzlösungen nicht dargestellt werden können.
 Die Möglichkeit die Sensoren auch bei verschiedenen Temperaturen (z.B. 10°C, 20°C, 30°C und 40°C) zu testen ist ein weiterer Vorteil dieser Methode. So könnte auch die Anwendung in extremerem Klima oder im denkmalpflegerischen Kontext simuliert werden.
 Der DKD empfiehlt bei der Kalibrierung die Verwendung einer unabhängigen Normale zur Referenzwertbestimmung. Zusätzlich müssen Einflussfaktoren, wie z.B. die räumliche Inhomogenität, bestimmt werden. 
 
 <br/><br/>
 
-### 4.1 Geräte
+## 4.1 Geräte
 |Menge|Geräte|Typ|
 |---|---|---|
 |1 Stk.|Klimaschrank|unbekannt|
@@ -144,21 +146,21 @@ Der DKD empfiehlt bei der Kalibrierung die Verwendung einer unabhängigen Normal
 |3 Stk.|Standfüße|selbstbau|
 <br/><br/>
 
-### 4.2 Aufbau
+## 4.2 Aufbau
 Je nach Aufbau des Klimaschrnks werden die Sensoren und das Referenzgerät im Inneren des Schrankes platziert. Das Referenzgerät liegt misst dabei im Zentrum des Kalibriervolumens.
 
 <br/><br/>
 
-### 4.3 Ablauf
+## 4.3 Ablauf
 Der Ablauf der DKD-R 5-8 wird als Vorbild für dieses Experiment genommen. Der Ausgangspunkt S0 muss dabei 5% unterhalb des niedrigsten Wertes N1a bzw. N1b liegen. Für jede gewählte Temperatur müsste dann ein Durchlauf gemacht werden.
 Zunächst muss, wie bei Möglichkeit 1 die Angleichzeit bestimmt werden. Der Wert wird dann für eine halbe Stunde gehalten, wobei pro Minute eine Messung erfolgt. 
 
 ![Abbildung des Ablauf A1](https://private-user-images.githubusercontent.com/133433673/244195778-9ad5f55b-38cf-45b4-8b47-082ebfe0d7e0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTcxNjAxLCJuYmYiOjE2ODYxNzEzMDEsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE5NTc3OC05YWQ1ZjU1Yi0zOGNmLTQ1YjQtOGI0Ny0wODJlYmZlMGQ3ZTAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMjA1NTAxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NWZmN2FmYTg4M2Y5NTI5ODFmZTVkZTM2YjZlYTdlYzQ3MzI0ZjU4YWNkZTg1MjY5YTM4YWExOTdmY2Y5MmRhOCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.zkb7xwSszgTqzkli2PAi-7Sz18GCr5hAT-9qvQMmzbc)
-Abbildung aus der DKD-R 5-8
+Abbildung aus der DKD-R 5-8. This picture is lisenced under cc by-nc-nd-license
 
 <br/><br/>
 
-#### 4.3.1 Einflussgrößen
+### 4.3.1 Einflussgrößen
 
 - Räumliche Inhomogenität
 - Zeitliche Instabilität
@@ -167,11 +169,23 @@ Abbildung aus der DKD-R 5-8
 - Strömungsverhältnisse (positionierung der Bezugsnormale und Kalibreirgegenstand parrallel zur Strömungsrichtung)
 - Rückwirkungen (z.b. Eigenerwärmung)
 
-##### 4.3.1.1 Räumliche Inhomogenität
+#### 4.3.1.1 Räumliche Inhomogenität
 Messungen von Temperatur und Luftfeuchtigkeit müssen am Referenzmessort und an den vorgesehenen Messpunkten vorgenommen werden. Abweichung und Verteilung müssen erfasst werden.
 
-##### 4.3.1.2 Zeitliche Instabilität
+#### 4.3.1.2 Zeitliche Instabilität
 Zur Erfassung der zeitlichen Instabilität müssen mindestens 30 Messungen in 30 Minuten in regelmäßigen Abständen erfolgen.
+
+#### 4.3.1.3 Strahlungseinfluss
+Zur Erfassung des Strahlungseinflusses muss die Temperatur im Zentrum des Kalibriervolumens mit einem Thermometer mit niedrigem und einem mit hohem Emmissionsgrad gemessen werden. Die Gastemperatur muss durch die Messung des Thermometers mit niedrigem Emmisionsgrad extrapoliert werden und der gesamte Strahlungseinfluss als Rechteckverteilung in der Messunsicherheit berücksichtigt werden.
+
+#### 4.3.1.4 Druckdifferenzen
+Druckdifferenzen können innerhalb des kalibreirvolumens auftreten und müssten sie, da sie einen Einfluss auf die Feuchte haben, mit einem entsprechenden Gerät erfasst werden.
+
+#### 4.3.1.5 Strömungsverhältnisse
+Die Strömungsrichtung im Kalibriervolumen muss erfasst werden und ihr Einfluss auf die unterschiedliche Positionierung von Bezugsnormale und Kalibriergegenstand geprüft werden
+
+#### 4.3.1.6
+Die Rückwirkung durch die Eigenerwärmung des Kalibreirvolumens muss geprüft werden. Die DKD-R %-8 gibt hierzu keine genaueren Angaben.
 
 
  <br/><br/>

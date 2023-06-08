@@ -37,14 +37,14 @@ Außer dem SHT41 und dem SHT85 haben alle Sensoren mit I2C eine sekundäre I2C-A
 Die Sensoren BME280 und SHT31 haben sekundäre i2C-Adressen, welche durch die Verbindung des SOD bzw. ADDR aktiviert werden können. Dies geschieht hier durch die violett dargestellten Kabel, welche jeweils mit einem digitalen Pin Verbunden sind. Diese können sukzessive ein oder ausgeschaltet werden.
 <br/><br/>
 
-![Verkabeluing der Sensoren BME680 und DHT22](https://private-user-images.githubusercontent.com/133433673/244177902-0ce25354-85b3-4775-b3a7-977d44bb2fda.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY2ODczLCJuYmYiOjE2ODYxNjY1NzMsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NzkwMi0wY2UyNTM1NC04NWIzLTQ3NzUtYjNhNy05NzdkNDRiYjJmZGEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMTkzNjEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9YzQzMjY3MjZjNGMyNGM4MDdkNzJmNGZjMzkzNTc2ZjQzZWIzMmZmZjY3NGVlNDg2MTdiMzRhNDAzYzVmOGQ2YSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.DiX4OrxI0ezoRoAk-fbVI8HFWYOI-z7NLPNnT360-Kw)
+![Verkabeluing der Sensoren BME680 und DHT22](https://github.com/ZieBar/M.A.-Thesis/blob/abd98be384f757850d7b44b677a4a5f327b662ce/Experiment/Abbildungen/SHT31%2BBME280_D1Mini_Steckplatine.jpg)
 
 
 
 Der DHT22 kann durch das One-Wire Protokoll problemlos durch den jeweiligen Digitalen pin ausgelesen werden.
 
 <br/><br/>
-![Verkabelung der Sensoren SHt41 und SHT85](https://private-user-images.githubusercontent.com/133433673/244176365-f14bc21c-0c62-44ba-99b2-d46596d0c71a.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY2NzUzLCJuYmYiOjE2ODYxNjY0NTMsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM2NS1mMTRiYzIxYy0wYzYyLTQ0YmEtOTliMi1kNDY1OTZkMGM3MWEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMTkzNDEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MjE2OGExNWIzZGZiMWEzMTQwMDQ3ZjJhZTUzOTkyZDdmZWJiODMxMTNiZTJlYjk4M2I5NDM3NTFmZmIyMjBmMSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.FhnDZ3-0zVk0VltL5NStkaag8gccnxZjiOag_P6yIvs)
+![Verkabelung der Sensoren SHt41 und SHT85](https://github.com/ZieBar/M.A.-Thesis/blob/abd98be384f757850d7b44b677a4a5f327b662ce/Experiment/Abbildungen/SHT41%2BExpander_Steckplatine.jpg)
 
 Im Falle des SHT41 und ST85 muss ein Multiplexer für das Auslesen dazwischengeschaltet werden.
 

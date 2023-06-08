@@ -24,13 +24,13 @@ Als Microcontroller-Unit (µCU) wurde der ESP8266 gewählt. Dieser hat den Vorte
 Die Menge der vorhandenen und benötigten Pins bei den µCUs und den Sensoren ermöglicht jedoch nur eine Verbindung zu maximal 6 Sensoren pro µCU. Daher müssen mehrere µCUs eingesetzt werden. Diese könnten die Daten einen zentralen µCU senden, welcher die Daten auf einer SD-Karte speichert.
 <br/><br/>
 
-![Schematische Darstellung des Messaparats](https://private-user-images.githubusercontent.com/133433673/244176352-2a19a4f3-1f4c-4515-935c-c05821b03551.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MjI1NzA0LCJuYmYiOjE2ODYyMjU0MDQsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM1Mi0yYTE5YTRmMy0xZjRjLTQ1MTUtOTM1Yy1jMDU4MjFiMDM1NTEuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwOCUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDhUMTE1NjQ0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZDkzZTM4NDM1MjY0ZTlhZTY3N2Y3MDI1MzgxNjU0NWI5MTRjYWNmY2IxYWU2ZTgyOWMyZDY2NDJhNzc0Y2FkMyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.iIRnhRQrVm1mQx-7y5ehxOp9QkUEvSklesDdqrjXFXg)
+![Schematische Darstellung des Messaparats](https://github.com/ZieBar/M.A.-Thesis/blob/fba20ee6c8bb07e88017035b0c5d358485c20e88/Experiment/Abbildungen/Kommunikation.jpg)
 
 
 Außer dem SHT41 und dem SHT85 haben alle Sensoren mit I2C eine sekundäre I2C-Adresse, diese kann über den ADDR- (STH) bzw. SDO- (BME) Pin aktiviert werden. Da mehr als zwei Sensoren ausgelesen werden müssen, wird im Programm nur die sekundäre Adresse abgefragt. Diese wird sukzessive bei den einzelnen Sensoren Aktiviert. 
 <br/><br/>
 
-![Verkabelung der Sensoren SHT31 und BME 280](https://private-user-images.githubusercontent.com/133433673/244176356-4fbcd460-229d-46ff-bd6a-ba4dc4124ad3.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY2NzUzLCJuYmYiOjE2ODYxNjY0NTMsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM1Ni00ZmJjZDQ2MC0yMjlkLTQ2ZmYtYmQ2YS1iYTRkYzQxMjRhZDMuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMTkzNDEzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NGJiODM4MDAwYzhjNDQ1ZWJhY2E0ZDI3NzkxNDY1ZmFhNzNhNjExMTc4YzYzMWIyYjZiYmM3MjZhNGYwZDZkOCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ._TtT-dFxAXPnzXK5gVq5lYrnG2lfgdooSYAlq1bHrG4)
+![Verkabelung der Sensoren SHT31 und BME 280](https://github.com/ZieBar/M.A.-Thesis/blob/fba20ee6c8bb07e88017035b0c5d358485c20e88/Experiment/Abbildungen/SHT31%2BBME280_D1Mini_Steckplatine.jpg)
 
 <br/><br/>
 

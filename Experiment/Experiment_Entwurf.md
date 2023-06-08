@@ -110,10 +110,10 @@ Die Sensoren können dann mit Verlängerungskabeln ebenfalls in der Mitte positi
 Als erstes muss die Angleichszeit bestimmt werden, in der das Feuchtigkeitsgleichgewicht in der Box hergestellt wird. Diese ist abhängig vom Volumen und der Dichtigkeit der Box, sowie dem Luftstrom und der zu erreichenden Zielfeuchte.  
 Hierfür wird die Salzlösung angesetzt, die Füße eingesetzt und der Testo H175 mittig platziert. Visuell kann über das Display des Referenzgerätes das Erreichen der Zielfeuchte kontrolliert und die Daten anschließend ausgewertet werden.
 Der Vorgang wird in jeder Box wiederholt. Ggf. kann der Versuch mit und ohne Membran wiederholt werden.
-.
+
 Nach DKD-R 5-8 wird die angleich und Messzeitraum wiefolgt bestimmt:
 
-![Angleichszeit und Messzeitraum nacb DKD-R 5-8](https://private-user-images.githubusercontent.com/133433673/244176372-07c4bfab-b553-4b29-8984-d4c85c7a048a.JPG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY4NzYzLCJuYmYiOjE2ODYxNjg0NjMsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM3Mi0wN2M0YmZhYi1iNTUzLTRiMjktODk4NC1kNGM4NWM3YTA0OGEuSlBHP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMjAwNzQzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjQwZmViMmVjZGY0NzBkZDk1ZDVkYzA1MjRkYmY2OTY0Zjc2YjEyMmEwNzIzZmFiZTIyNTA4YWVlNmRkMmQ5OSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.dW6_nU3ncu6SFp9AU0LRXi9j0zFU8JPWTflv6KtOXRY)
+![Angleichszeit und Messzeitraum nach DKD-R 5-8](https://private-user-images.githubusercontent.com/133433673/244176372-07c4bfab-b553-4b29-8984-d4c85c7a048a.JPG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY4NzYzLCJuYmYiOjE2ODYxNjg0NjMsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM3Mi0wN2M0YmZhYi1iNTUzLTRiMjktODk4NC1kNGM4NWM3YTA0OGEuSlBHP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMjAwNzQzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjQwZmViMmVjZGY0NzBkZDk1ZDVkYzA1MjRkYmY2OTY0Zjc2YjEyMmEwNzIzZmFiZTIyNTA4YWVlNmRkMmQ5OSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.dW6_nU3ncu6SFp9AU0LRXi9j0zFU8JPWTflv6KtOXRY)
 Abbildung aus der DKD-R 5-8. This picture is lisenced under cc by-nc-nd-license.
 
 <br/><br/>

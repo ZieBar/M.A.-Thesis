@@ -17,7 +17,9 @@ Insgesamt wurden 6 Sensortypen ausgewählt. Von jedem Typ wurden jeweils 3 Exemp
 <br/><br/>
 |Sensoren |	DHT22	| BME280	| BME680	| SHT31	| SHT41	| SHT85 |
 |---------|---------|-----------|-----------|-------|-------|-------|
-|Kommunikation |	One-Wire	| SPI, I2C	| SPI, I2C	| SPI, I2C	| SPI, I2C	| SPI, I2C |#
+|Kommunikation |	One-Wire	| SPI, I2C	| SPI, I2C	| SPI, I2C	| SPI, I2C	| SPI, I2C |
+
+![Abbildung der 6 Sensortypen](https://github.com/ZieBar/M.A.-Thesis/blob/e8368e8d98c811b5c88421134cfb4076032809b6/Experiment/Abbildungen/_DSC3556.jpg)
 
 <br/><br/>
 Als Microcontroller-Unit (µCU) wurde der ESP8266 gewählt. Dieser hat den Vorteil, dass er mit WiFi ausgestattet ist und so verschiedene Wege der Kommunikation ermöglicht.
@@ -89,11 +91,11 @@ Eine Übersättigung muss vermieden werden.
 
 ### 3.3.3 Herstellung der Standfüße
 
-Pro Box werden drei Standfüße (180 x 88 x 45 mm) eingesetzt, sodass die Sensoren und das Referenzgerät oberhalb der Salzlösungen liegen. Diese werden mit dem 3D-Drucker hergestellt und zusammengebaut. 
+Pro Box werden drei Standfüße (175 x 88 x 45 mm) eingesetzt, sodass die Sensoren und das Referenzgerät oberhalb der Salzlösungen liegen. Diese werden mit dem 3D-Drucker hergestellt und zusammengebaut. 
 Das herausnehmbare Gitter soll dazu dienen, eine wasserdampfdurchläßige Membran aus Tyvek® zum Schutz der Sensoren einzulegen.
 
 
-![](https://private-user-images.githubusercontent.com/133433673/244176387-555a0cc5-8fc8-4c4b-bd34-38ee3950bccc.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY2ODc1LCJuYmYiOjE2ODYxNjY1NzUsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM4Ny01NTVhMGNjNS04ZmM4LTRjNGItYmQzNC0zOGVlMzk1MGJjY2MuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMTkzNjE1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZjY3ZGU5Yjk1OTA2MzlhY2JmZDhmMDFiMWI0OTA2YjE5OGFjZmI1NDU5ZTNmZWEwNWJhYjY0NjBmZjliZDgxMiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.Fpj44Fr9gGLuzIcbMJfDZCJ7tatNp2h2QBIeIaIj6HI)
+![gedruckter Standfuss](https://github.com/ZieBar/M.A.-Thesis/blob/e8368e8d98c811b5c88421134cfb4076032809b6/Experiment/Abbildungen/_DSC3610.jpg)
 
 <br/><br/>
 

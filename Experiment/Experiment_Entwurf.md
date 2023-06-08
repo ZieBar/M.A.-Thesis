@@ -103,7 +103,7 @@ Das herausnehmbare Gitter soll dazu dienen, eine wasserdampfdurchläßige Membra
 Da nur ein Referenzgerät zur Verfügung steht, musste der ursprüngliche Messaufbau abgewandelt werden. Nun sollen alle Sensoren gelichzeitig und zusammen mit dem Messgerät in jeweils einer Box positioniert werden. Das Referenzmessgerät wird in der Mitte aufgestellt, während die Breadboards an die Seiten kommen
 Die Sensoren können dann mit Verlängerungskabeln ebenfalls in der Mitte positioniert werden, wodurch ein Raum von ca. 175x90x60mm in der Mitte der Box zum eigentlichen Kalibriervolumen wird.
 
-![](https://private-user-images.githubusercontent.com/133433673/244176377-04f6b9c8-d196-4e64-a4d7-2ac5352bc8b8.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY2ODc1LCJuYmYiOjE2ODYxNjY1NzUsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM3Ny0wNGY2YjljOC1kMTk2LTRlNjQtYTRkNy0yYWM1MzUyYmM4YjguanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMTkzNjE1WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9OGRhMzczMjI2NmVhMDQ2ODNjNWE3ZTNiOWE3MDE4NGEzZDkwN2M1YTkxNWY2MzgxNWE1MmZiMzVlNjllOWE0YyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.L3Hy1KcDkw0bx8zeZHxxAzAsskPdnm8WbuhZpckGbdI)
+![Positionierung der Sensoren](https://github.com/ZieBar/M.A.-Thesis/blob/9bfccf15ac7a891084de5ca83df9ba364f1dc509/Experiment/Abbildungen/_IGP9685.jpg)
 
 <br/><br/>
 
@@ -115,7 +115,7 @@ Der Vorgang wird in jeder Box wiederholt. Ggf. kann der Versuch mit und ohne Mem
 
 Nach DKD-R 5-8 wird die angleich und Messzeitraum wiefolgt bestimmt:
 
-![Angleichszeit und Messzeitraum nach DKD-R 5-8](https://private-user-images.githubusercontent.com/133433673/244176372-07c4bfab-b553-4b29-8984-d4c85c7a048a.JPG?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY4NzYzLCJuYmYiOjE2ODYxNjg0NjMsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM3Mi0wN2M0YmZhYi1iNTUzLTRiMjktODk4NC1kNGM4NWM3YTA0OGEuSlBHP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMjAwNzQzWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjQwZmViMmVjZGY0NzBkZDk1ZDVkYzA1MjRkYmY2OTY0Zjc2YjEyMmEwNzIzZmFiZTIyNTA4YWVlNmRkMmQ5OSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.dW6_nU3ncu6SFp9AU0LRXi9j0zFU8JPWTflv6KtOXRY)
+![Angleichszeit und Messzeitraum nach DKD-R 5-8](https://github.com/ZieBar/M.A.-Thesis/blob/9bfccf15ac7a891084de5ca83df9ba364f1dc509/Experiment/Abbildungen/Angleichzeit_DKD.JPG)
 Abbildung aus der DKD-R 5-8. This picture is lisenced under cc by-nc-nd-license.
 
 <br/><br/>
@@ -201,7 +201,7 @@ Die Auswertung erfolgt mit Excel, LibreClac, Python oder R. Dabei ist auf folgen
 - Verteilung (Liegen die Messungen häufiger in einem bestimmten Bereich?)
 - Hysterese (Wie stark ändert sich die Messung in Abhänigkeit ob dieser von einem höheren oder niedrigerem Wert angestuert wird?)
 
-![testo-Messkriterien](https://private-user-images.githubusercontent.com/133433673/244176374-5127c46e-a9f2-43bc-a6ac-e5d63eb695f5.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTY4OTE2LCJuYmYiOjE2ODYxNjg2MTYsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE3NjM3NC01MTI3YzQ2ZS1hOWYyLTQzYmMtYTZhYy1lNWQ2M2ViNjk1ZjUuanBnP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMjAxMDE2WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9ZTZiZjJmNTNmZTRhMjA5NmM4OTkwZjJjMjA3MmQwYjdlZjBkNTk2MDBmMGY0MzFmNzAwNTkzMTE1MDU1YjE1MSZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.K28iAROWAhBxnyw0tJn9xvV83HOVvb1GDTtHPK6YFpY)
+![testo-Messkriterien](https://github.com/ZieBar/M.A.-Thesis/blob/9bfccf15ac7a891084de5ca83df9ba364f1dc509/Experiment/Abbildungen/abbildung-genauigkeit-praezision-de.jpg)
 Abbildung von testo Industrial Services
 
 

@@ -215,3 +215,6 @@ Der Klimaschrank ermöglicht viele Variationen. Daher muss hier priorisiert werd
 - [ ] Mehrere Temperaturen bei gleichen Abständen der Luftfeuchtigkeiten ausprobieren?
 - [ ] Muss die Prüfung der Sensoren auf der Höhe eines akkreditierten Kalibrierslabors sein?
 
+Eine Normgerechte Kalibrierung ist sehr aufwendig und nur mit vielen zusätzlichen Messgeräten bzw. Sensoren möglich und als Eigenleistung nicht wirklilch Durchführbar.
+- [ ] Reicht eine Annäherung and die Kalibreirung aus? Sprich: durchführung der Experimente und Nennung der Einflussgrößen als Fehlequellen, ggf. bestimmung einer oder zweier Fehlerquellen
+- [ ] Gibt es pauschale Messunsicherheiten, welche bei nicht exakter Bestimmung eingebracht werden können? => Frage an Kalibierlabor senden

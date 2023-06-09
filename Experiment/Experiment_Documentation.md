@@ -73,21 +73,21 @@ This already shows the problems when calibrating a sensor. As small differences 
 Repeating the measurement with the box on top of a rolling cart created measuremnts of 20,4°C outside and 20,8°C inside the box.
 
 
-## 1.1 Cleaning the Experiment Hardware
+## 3.2 Cleaning the Experiment Hardware
 
 A box and lid are cleaned using a small amount of detergent and then rinsed thoroughly with tap water. Afterwards they are rinsed again with destilled Water to remove other minerals (this step might be overkill).
 
 The Feet, with the PE-fiber-membrane where cleaned with a vaccuum.
 
-## Preparation of the salt-solution
+## 3.3 Configuring the Datalogger
+The datalogger was configured using the proprietary but free software testo Comfort 5. Temperature and rH are logged every 10 min. The start and the end of the sequence are given manually.
+The experiment was started on June 9th 2023 at 14:17.
+
+## 3.4 Preparation of the salt-solution
 
 300g of magnesium chloride where poured on the bottom of the box, roughly 3mm deep. Then destilled Water was added.
 As the Magnesium chloride desolves rather quickly a smaller quantity of water would have been sufficient. 50 g of salt where added afterwards to avoid that all salt cristals desolve. 
 The right way to create salt solutions is difficult to establish. MostraLog asks for the salt only to be wetted, while Robert Smith says it's enough to have undesolved cristals in the solution.
-
-## Configuring the Datalogger
-The datalogger was configured using the proprietary but free software testo Comfort 5. Temperature and rH are logged every 10 min. The start and the end of the sequence are given manually.
-The experiment was started on June 9th 2023 at 14:17.
 
 
 [^1]: telefon call on May 31st 2023

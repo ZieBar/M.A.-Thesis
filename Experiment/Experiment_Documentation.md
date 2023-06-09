@@ -52,13 +52,13 @@ Pictture of the tested Sensors
 |10 l|destilled Water|dm-Drogeriemarkt GmbH + Co KG.|
 
 
-# 2 Establishing the Stabilization Time
+# 3 Establishing the Stabilization Time
 
-According to the experience of Lukas Schäfer from Long Life for Art the stabilization times for drier humidites takes usually the longest.[^1] Thus the 1st Experiment is done with magnesium cloride which should generate a relative Humidity (rH) of 33.1 % at 21°C.[^2]
+According to the experience of Lukas Schäfer from Long Life for Art the stabilization times for drier humidites takes usually the longest.[^1] Thus the 1st Experiment is done with magnesium cloride which should generate a relative Humidity (rH) of 33.1 % at 21°C.[^2] according to the DKD-R 5-8 standard stabilization is reached 30 min. after beeing within  +-2% rH and +-0,2°K Temperature to the goal values.
 
-The aim temperature is 20°C and aim Humidity 33.1%. These values are chosen because of the current room temperature, as the experiment design does not include a cooling or a heating element. Thus the experiment is placed inside an insulating styrofoam box to shield it from temperature fluctuations. If the temperatures result to be too unstable heatingmat for reptiles could be used to temperate the environment. In this case a temperature above the room temperature (i.e. at 25°C resulting in 32,8% rH) should be used.
+The goal temperature is 20°C and goal Humidity 33.1%. These values are chosen because of the current room temperature, as the experiment design does not include a cooling or a heating element. Thus the experiment is placed inside an insulating styrofoam box to shield it from temperature fluctuations. If the temperatures result to be too unstable heatingmat for reptiles could be used to temperate the environment. In this case a temperature above the room temperature (i.e. at 25°C resulting in 32,8% rH) should be used.
 
-## Measuring room temperature
+## 3.1 Measuring room temperature
 The roomtemperature is measured unsing the calibrated testo 175 H1 (last calibration in April 2023).
 > Make sure the Datalogger you use has been calibrated before using it as a reference! Once a year is the recommendet calibration intervall.
 

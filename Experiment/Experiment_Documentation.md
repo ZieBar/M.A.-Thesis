@@ -1,4 +1,4 @@
-Dokumentation of the Experiment using Saturated Salt Solutions
+Dokumentation of the experiment using saturated salt solutions
 ===
 <br/><br/>
 > __+++ important note: when dealing with  chemicals and tools read the datasheet and take neccessary precautions for personal and environmental protection +++__

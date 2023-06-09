@@ -1,4 +1,4 @@
-Dokumentation des Experiments - Salzlöungen
+Dokumentation of the Experiment using Saturated Salt Solutions
 ===
 <br/><br/>
 > __+++ important note: when dealing with  chemicals and tools read the datasheet and take neccessary precautions for personal and environmental protection +++__

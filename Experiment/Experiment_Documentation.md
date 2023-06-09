@@ -10,7 +10,7 @@ This Experiment is designd to test low-cost Sensors for Open-Source environment 
 According to german calibration-standards it is not suitable for a proper and precise calibration of scientific equipment that needs the highest possibile accuracy. It is however suitable for testing sensors to establish if a proper calibration is needed.
 This Experiment should, if properly executed, be able to show the precision  and accuracy of a sensor in  a given environment. Hysteresis-effects can not be demonstrated.
 
-## Sensors tested in this experiment
+## 1.2 Sensors tested in this experiment
 In this Experimetn the following Sensors are tested.
 
 <br/><br/>
@@ -26,7 +26,7 @@ Pictture of the tested Sensors
 
 # 2 Materials and Tools
 
-## Tools
+## 2.1 Tools
 
 |Quantity|Tool|Type/Brand|Dimensions|
 |:---:|---|---|---|
@@ -40,7 +40,7 @@ Pictture of the tested Sensors
 |20 pcs.|20 M-M Jumperwires|BerryBase|100 mm|
 |3 pcs.|ESP8266|ESP8266 - D1 Mini, BerryBase|---|
 
-## Chemicals and Materials
+## 2.2 Chemicals and Materials
 
 |Quantity|Material/Substance|Type/Brand|
 |:---:|---|---|
@@ -49,6 +49,7 @@ Pictture of the tested Sensors
 |1 kg|potassium carboante|WHC GmbH|
 |3 pcs.|polyethylenfiber membrane|Tyvek 1623E|
 |200 g|PLA (poliacitic acid)|Prusa Filament|
+|10 l|destilled Water|dm-Drogeriemarkt GmbH + Co KG.|
 
 
 # 2 Establishing the Stabilization Time

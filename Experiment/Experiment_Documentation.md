@@ -23,7 +23,7 @@ Picture of the tested sensors
 
 
 
-# 2 Materials and Tools
+# 2 Materials and tools
 
 ## 2.1 Tools
 
@@ -39,7 +39,7 @@ Picture of the tested sensors
 |20 pcs.|20 M-M Jumperwires|BerryBase|100 mm|
 |3 pcs.|ESP8266|ESP8266 - D1 Mini, BerryBase|---|
 
-## 2.2 Chemicals and Materials
+## 2.2 Chemicals and materials
 
 |Quantity|Material/Substance|Type/Brand|
 |:---:|---|---|
@@ -51,7 +51,7 @@ Picture of the tested sensors
 |10 l|destilled Water|dm-Drogeriemarkt GmbH + Co KG.|
 
 
-# 3 Establishing the Stabilization Time
+# 3 Establishing the stabilization time
 
 According to the experience of Lukas Schäfer from Long Life for Art, the stabilization times for drier humidites takes usually the longest.[^1] Thus the first experiment is done with magnesium cloride which should generate a relative humidity (rH) of 33.1 % at 21°C.[^2] according to the DKD-R 5-8 standard stabilization is reached 30 min. after beeing within  +-2% rH and +-0,2°K temperature to the goal values.
 
@@ -72,13 +72,13 @@ This already shows the problems when calibrating a sensor: small differences in 
 Repeating the measurement with the box on top of a rolling cart showed a temperature of 20,4°C outside and 20,8°C inside the box.
 
 
-## 3.2 Cleaning the Experiment Hardware
+## 3.2 Cleaning the experiment hardware
 
 A box and lid are cleaned using a small amount of detergent and then rinsed thoroughly with tap water. Afterwards they are rinsed again with destilled water to remove other minerals (optional).
 
 The stands with the PE-fiber-membrane were cleaned with a vacuum.
 
-## 3.3 Configuring the Data-logger
+## 3.3 Configuring the data-logger
 The data-logger was configured using the proprietary but free software Testo Comfort 5. Temperature and rH are logged every 10 min. The start and the end of the sequence are given manually.
 The experiment was started on June 9th 2023 at 14:17.
 

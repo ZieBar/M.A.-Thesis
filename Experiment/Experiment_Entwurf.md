@@ -42,7 +42,7 @@ Außer dem SHT41 und dem SHT85 haben alle Sensoren mit I2C eine sekundäre I2C-A
 Die Sensoren BME280 und SHT31 haben sekundäre i2C-Adressen, welche durch die Verbindung des SOD bzw. ADDR aktiviert werden können. Dies geschieht hier durch die violett dargestellten Kabel, welche jeweils mit einem digitalen Pin Verbunden sind. Diese können sukzessive ein oder ausgeschaltet werden.
 <br/><br/>
 
-![Verkabeluing der Sensoren BME680 und DHT22](https://github.com/ZieBar/M.A.-Thesis/blob/abd98be384f757850d7b44b677a4a5f327b662ce/Experiment/Abbildungen/SHT31%2BBME280_D1Mini_Steckplatine.jpg)
+![Verkabeluing der Sensoren BME680 und DHT22](https://github.com/ZieBar/M.A.-Thesis/blob/main/Experiment/Abbildungen/BME680%2BDHT22-D1Mini_Steckplatine.jpg)
 
 
 

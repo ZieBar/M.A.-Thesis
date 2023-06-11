@@ -3,8 +3,8 @@ Experiment-Vorschlag
 
 # 1 Einleitung
 Für Free-Open-Source-Datenlogger gibt es eine Reihe möglicher Sensoren. In den meisten Projekten, kommt jedoch nur ein einziger zum Einsatz. Größtenteils ist die Methode zur Untersuchung der Genauigkeit und Verlässlichkeit der Sensoren problematisch. Die Kalibrierung (die Bestimmung der Messungenauigkeiten einer Messeinrichtung) ist ein komplexer Vorgang. Die Richtlinie DKD-R 5-8 des Deutsche Kalibrierdienst (DKD) beschäftigt sich mit dem Kalibrieren von Hygrometern zur direkten Erfassung der relativen Feuchte. Zwei Methoden wären im Rahmen dieser Masterarbeit mit den zur Verfügung stehenden Ressourcen durchführbar:
--	Kalibrierung im Klimaschrank nach Ablauf A1 (Siehe DKD-R 5-8, Kapitel 9.3.2) 
--	Salzlösungen (explizit angegeben als nicht zur Kalibrierung geeignet, aber für Kontrollen ausreichend)
+-	Kalibrierung im Klimaschrank nach Ablauf A1 (Siehe DKD-R 5-8, Kapitel 9.3.2) [^1]
+-	Salzlösungen (explizit angegeben als nicht zur Kalibrierung geeignet, aber für Kontrollen ausreichend) [^2]
 	
 Eine Norm-gerechte Kalibrierung der Sensoren scheint im Rahmen dieser Masterarbeit nicht bzw. nicht in Eigenleistung möglich zu sein. Die beiden Methoden können jedoch genutzt werden um einen annähernden Eindruck der Qualität der Sensoren zu bekommen
 
@@ -58,7 +58,7 @@ Im Falle des SHT41 und ST85 muss ein Multiplexer für das Auslesen dazwischenges
 ---
 # 3 Prüfung mit gesättigten Salzlösungen 
 
-Eine Bedingung für Open-Source-Hardware ist die breite Verfügbarkeit von Ressourcen zur Herstellung der Geräte.[^1] Die Kalibrierung oder zumindest Prüfung der Sensoren ist in diesem Fall ein wichtiger Teil der Herstellung. Salze wie Natriumchlorid (NaCl) Magnesium Chlorid Hexahydrat (MgCl2 · H2O) und Kaliumcarbonat K2CO3 sind einfach verfügbar und generieren durch die Deliqueszenzfeuchte Luftfeuchtigkeit, welche relativ Temperaturunabhängig sind. Jedoch sind sie nach den vorgaben des Deutschen Kalibrierdienstes nicht für Kalibrierungen geeignet. Bei adequater Nutzung sind sie jedoch für die Überprüfung von Sensoren ausreichend.
+Eine Bedingung für Open-Source-Hardware ist die breite Verfügbarkeit von Ressourcen zur Herstellung der Geräte.[^3] Die Kalibrierung oder zumindest Prüfung der Sensoren ist in diesem Fall ein wichtiger Teil der Herstellung. Salze wie Natriumchlorid (NaCl) Magnesium Chlorid Hexahydrat (MgCl2 · H2O) und Kaliumcarbonat K2CO3 sind einfach verfügbar und generieren eine Luftfeuchtigkeit, welche relativ stabil bei Temperaturänderungen sind. Jedoch ist diese Methode nach den vorgaben des Deutschen Kalibrierdienstes nicht für Kalibrierungen geeignet.[^4] Bei adequater Nutzung sind sie jedoch für die Überprüfung von Sensoren ausreichend.
 <br/><br/>
 ## 3.1 Material
 |Menge|Material|Dimensionen|
@@ -225,6 +225,18 @@ Eine Normgerechte Kalibrierung ist sehr aufwendig und nur mit vielen zusätzlich
 - [ ] Gibt es pauschale Messunsicherheiten, welche bei nicht exakter Bestimmung eingebracht werden können? => Frage an Kalibierlabor senden
 
 # Literatur
-[^1]: Oberloier, S., Pearce, J., 2017. General Design Procedure for Free and Open-Source Hardware for Scientific Equipment. Designs 2, 2. https://doi.org/10.3390/designs2010002
+[^1]: Richtlinie DKD-R 5-8, Ausgabe 02/2019, Revision 0, Kalibrierung von Hygrometern zur
+direkten Erfassung der relativen Feuchte, Physikalisch-Technische Bundesanstalt,
+Braunschweig und Berlin. DOI: 10.7795/550.2019021, S.30
+
+[^2]: Richtlinie DKD-R 5-8, Ausgabe 02/2019, Revision 0, Kalibrierung von Hygrometern zur
+direkten Erfassung der relativen Feuchte, Physikalisch-Technische Bundesanstalt,
+Braunschweig und Berlin. DOI: 10.7795/550.2019021, S.30
+
+[^3]: Oberloier, S., Pearce, J., 2017. General Design Procedure for Free and Open-Source Hardware for Scientific Equipment. Designs 2, 2. https://doi.org/10.3390/designs2010002
+
+[^4]: Richtlinie DKD-R 5-8, Ausgabe 02/2019, Revision 0, Kalibrierung von Hygrometern zur
+direkten Erfassung der relativen Feuchte, Physikalisch-Technische Bundesanstalt,
+Braunschweig und Berlin. DOI: 10.7795/550.2019021, S.30
 
 

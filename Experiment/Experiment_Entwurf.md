@@ -35,7 +35,7 @@ Die Menge der vorhandenen und benötigten Pins bei den µCUs und den Sensoren er
 Außer dem SHT41 und dem SHT85 haben alle Sensoren mit I2C eine sekundäre I2C-Adresse, diese kann über den ADDR- (STH) bzw. SDO- (BME) Pin aktiviert werden. Da mehr als zwei Sensoren ausgelesen werden müssen, wird im Programm nur die sekundäre Adresse abgefragt. Diese wird sukzessive bei den einzelnen Sensoren Aktiviert. 
 <br/><br/>
 
-![Verkabelung der Sensoren SHT31 und BME 280](https://github.com/ZieBar/M.A.-Thesis/blob/main/Experiment/Abbildungen/SHT31%2BBME280_D1Mini_Steckplatine.jpg)
+![Verkabelung der Sensoren SHT31 und BME 280](https://github.com/ZieBar/M.A.-Thesis/blob/main/Experiment/Abbildungen/SHT31%2BBME280_D1Mini_Steckplatine_1.jpg)
 
 <br/><br/>
 

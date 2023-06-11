@@ -212,7 +212,8 @@ Die Auswertung erfolgt mit Excel, LibreClac, Python oder R. Dabei ist auf folgen
 - Hysterese (Wie stark ändert sich die Messung in Abhänigkeit ob dieser von einem höheren oder niedrigerem Wert angestuert wird?)
 
 ![testo-Messkriterien](https://github.com/ZieBar/M.A.-Thesis/blob/9bfccf15ac7a891084de5ca83df9ba364f1dc509/Experiment/Abbildungen/abbildung-genauigkeit-praezision-de.jpg)
-Abbildung von testo Industrial Services
+
+Abbildung von testo Industrial Services [^8]
 
 
 ---
@@ -245,5 +246,7 @@ Braunschweig und Berlin. DOI: 10.7795/550.2019021, S.30
 [^6]: DKD-R 5-8, S. 41
 
 [^7]: DKD-R 5-8, S. 31 ff.
+
+[^8]: Messicherheitsfibel, Testo Industrial Services, n.d.,S.15
 
 

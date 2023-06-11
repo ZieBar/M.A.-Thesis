@@ -58,7 +58,7 @@ Im Falle des SHT41 und ST85 muss ein Multiplexer für das Auslesen dazwischenges
 ---
 # 3 Prüfung mit gesättigten Salzlösungen 
 
-Eine Bedingung für Open-Source-Hardware ist die breite Verfügbarkeit von Ressourcen zur Herstellung der Geräte. Die Kalibrierung oder zumindest Prüfung der Sensoren ist in diesem Fall ein wichtiger Teil der Herstellung. Salze wie Natriumchlorid (NaCl) Magnesium Chlorid Hexahydrat (MgCl2 · H2O) und Kaliumcarbonat K2CO3 sind einfach verfügbar und generieren durch die Deliqueszenzfeuchte Luftfeuchtigkeit, welche relativ Temperaturunabhängig sind. Jedoch sind sie nach den vorgaben des Deutschen Kalibrierdienstes nicht für Kalibrierungen geeignet. Bei adequater Nutzung sind sie jedoch für die Überprüfung von Sensoren ausreichend.
+Eine Bedingung für Open-Source-Hardware ist die breite Verfügbarkeit von Ressourcen zur Herstellung der Geräte.[^1] Die Kalibrierung oder zumindest Prüfung der Sensoren ist in diesem Fall ein wichtiger Teil der Herstellung. Salze wie Natriumchlorid (NaCl) Magnesium Chlorid Hexahydrat (MgCl2 · H2O) und Kaliumcarbonat K2CO3 sind einfach verfügbar und generieren durch die Deliqueszenzfeuchte Luftfeuchtigkeit, welche relativ Temperaturunabhängig sind. Jedoch sind sie nach den vorgaben des Deutschen Kalibrierdienstes nicht für Kalibrierungen geeignet. Bei adequater Nutzung sind sie jedoch für die Überprüfung von Sensoren ausreichend.
 <br/><br/>
 ## 3.1 Material
 |Menge|Material|Dimensionen|
@@ -225,6 +225,6 @@ Eine Normgerechte Kalibrierung ist sehr aufwendig und nur mit vielen zusätzlich
 - [ ] Gibt es pauschale Messunsicherheiten, welche bei nicht exakter Bestimmung eingebracht werden können? => Frage an Kalibierlabor senden
 
 # Literatur
-Oberloier, S., Pearce, J., 2017. General Design Procedure for Free and Open-Source Hardware for Scientific Equipment. Designs 2, 2. https://doi.org/10.3390/designs2010002
+[^1]: Oberloier, S., Pearce, J., 2017. General Design Procedure for Free and Open-Source Hardware for Scientific Equipment. Designs 2, 2. https://doi.org/10.3390/designs2010002
 
 

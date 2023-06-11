@@ -223,3 +223,26 @@ Der Klimaschrank ermöglicht viele Variationen. Daher muss hier priorisiert werd
 Eine Normgerechte Kalibrierung ist sehr aufwendig und nur mit vielen zusätzlichen Messgeräten bzw. Sensoren möglich und als Eigenleistung nicht wirklilch Durchführbar.
 - [ ] Reicht eine Annäherung and die Kalibreirung aus? Sprich: durchführung der Experimente und Nennung der Einflussgrößen als Fehlequellen, ggf. bestimmung einer oder zweier Fehlerquellen
 - [ ] Gibt es pauschale Messunsicherheiten, welche bei nicht exakter Bestimmung eingebracht werden können? => Frage an Kalibierlabor senden
+
+# Literatur
+
+@article{oberloier_general_2017,
+	title = {General Design Procedure for Free and Open-Source Hardware for Scientific Equipment},
+	volume = {2},
+	issn = {2411-9660},
+	url = {http://www.mdpi.com/2411-9660/2/1/2},
+	doi = {10.3390/designs2010002},
+	abstract = {Distributed digital manufacturing of free and open-source scientiﬁc hardware ({FOSH}) used for scientiﬁc experiments has been shown to in general reduce the costs of scientiﬁc hardware by 90–99\%. In part due to these cost savings, the manufacturing of scientiﬁc equipment is beginning to move away from a central paradigm of purchasing proprietary equipment to one in which scientists themselves download open-source designs, fabricate components with digital manufacturing technology, and then assemble the equipment themselves. This trend introduces a need for new formal design procedures that designers can follow when targeting this scientiﬁc audience. This study provides ﬁve steps in the procedure, encompassing six design principles for the development of free and open-source hardware for scientiﬁc applications. A case study is provided for an open-source slide dryer that can be easily fabricated for under \$20, which is more than 300 times less than some commercial alternatives. The bespoke design is parametric and easily adjusted for many applications. By designing using open-source principles and the proposed procedures, the outcome will be customizable, under control of the researcher, less expensive than commercial options, more maintainable, and will have many applications that beneﬁt the user since the design documentation is open and freely accessible.},
+	pages = {2},
+	number = {1},
+	journaltitle = {Designs},
+	shortjournal = {Designs},
+	author = {Oberloier, Shane and Pearce, Joshua},
+	urldate = {2023-05-18},
+	date = {2017-12-30},
+	langid = {english},
+	keywords = {\_tablet},
+	file = {Oberloier_Pearce_2017_General Design Procedure for Free and Open-Source Hardware for Scientific.pdf:C\:\\Users\\Barnes\\Zotero\\storage\\RI4NXD8X\\Oberloier_Pearce_2017_General Design Procedure for Free and Open-Source Hardware for Scientific.pdf:application/pdf},
+}
+
+

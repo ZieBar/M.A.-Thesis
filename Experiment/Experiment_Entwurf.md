@@ -159,7 +159,7 @@ Der DKD empfiehlt bei der Kalibrierung die Verwendung einer unabhängigen Normal
 <br/><br/>
 
 ## 4.2 Aufbau
-Je nach Aufbau des Klimaschrnks werden die Sensoren und das Referenzgerät im Inneren des Schrankes platziert. Das Referenzgerät liegt misst dabei im Zentrum des Kalibriervolumens.
+Je nach Aufbau des Klimaschranks werden die Sensoren und das Referenzgerät im Inneren des Schrankes platziert. Das Referenzgerät liegt misst dabei im Zentrum des Kalibriervolumens.
 
 <br/><br/>
 
@@ -172,7 +172,7 @@ Abbildung aus der DKD-R 5-8. This picture is lisenced under cc by-nc-nd-license
 
 <br/><br/>
 
-### 4.3.1 Einflussgrößen
+### 4.3.1 Einflussgrößen [^7]
 
 - Räumliche Inhomogenität
 - Zeitliche Instabilität
@@ -243,5 +243,7 @@ Braunschweig und Berlin. DOI: 10.7795/550.2019021, S.30
 [^5]: DKD-R 5-8, S. 48
 
 [^6]: DKD-R 5-8, S. 41
+
+[^7]: DKD-R 5-8, S. 31 ff.
 
 

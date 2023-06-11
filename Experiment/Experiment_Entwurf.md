@@ -20,7 +20,8 @@ Insgesamt wurden 6 Sensortypen ausgewählt. Von jedem Typ wurden jeweils 3 Exemp
 |Kommunikation |	One-Wire	| SPI, I2C	| SPI, I2C	| SPI, I2C	| SPI, I2C	| SPI, I2C |
 
 ![Abbildung der 6 Sensortypen](https://github.com/ZieBar/M.A.-Thesis/blob/e8368e8d98c811b5c88421134cfb4076032809b6/Experiment/Abbildungen/_DSC3556.jpg)
-<img src="_DSC3556.jpg" width="200"/>
+
+
 <br/><br/>
 Als Microcontroller-Unit (µCU) wurde der ESP8266 gewählt. Dieser hat den Vorteil, dass er mit WiFi ausgestattet ist und so verschiedene Wege der Kommunikation ermöglicht.
 Die Menge der vorhandenen und benötigten Pins bei den µCUs und den Sensoren ermöglicht jedoch nur eine Verbindung zu maximal 6 Sensoren pro µCU. Daher müssen mehrere µCUs eingesetzt werden. Diese könnten die Daten einen zentralen µCU senden, welcher die Daten auf einer SD-Karte speichert.

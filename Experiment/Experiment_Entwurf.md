@@ -26,7 +26,7 @@ Insgesamt wurden 6 Sensortypen ausgewählt. Von jedem Typ wurden jeweils 3 Exemp
 <br/><br/>
 
 Als Microcontroller-Unit (µCU) wurde der ESP8266 gewählt. Dieser hat den Vorteil, dass er mit WiFi ausgestattet ist und so verschiedene Wege der Kommunikation ermöglicht.
-Die Menge der vorhandenen und benötigten Pins bei den µCUs und den Sensoren ermöglicht jedoch nur eine Verbindung zu maximal 6 Sensoren pro µCU. Daher müssen mehrere µCUs eingesetzt werden. Diese könnten die Daten einen zentralen µCU senden, welcher die Daten auf einer SD-Karte speichert.
+Die Menge der vorhandenen und benötigten Pins bei den µCUs und den Sensoren ermöglicht jedoch nur eine Verbindung zu maximal 6 Sensoren pro µCU. Daher müssen mehrere µCUs eingesetzt werden. Diese könnten die Daten einen zentralen µCU senden, welcher die Daten auf einer SD-Karte speichert, wie auf der folgenden Abbildung gezeigt.
 <br/><br/>
 
 ![Schematische Darstellung des Messaparats](https://github.com/ZieBar/M.A.-Thesis/blob/fba20ee6c8bb07e88017035b0c5d358485c20e88/Experiment/Abbildungen/Kommunikation.jpg)

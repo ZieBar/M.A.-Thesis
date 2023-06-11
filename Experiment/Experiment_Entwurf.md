@@ -59,7 +59,9 @@ Im Falle des SHT41 und ST85 muss ein Multiplexer für das Auslesen dazwischenges
 # 3 Prüfung mit gesättigten Salzlösungen 
 
 Eine Bedingung für Open-Source-Hardware ist die breite Verfügbarkeit von Ressourcen zur Herstellung der Geräte.[^3] Die Kalibrierung oder zumindest Prüfung der Sensoren ist in diesem Fall ein wichtiger Teil der Herstellung. Salze wie Natriumchlorid (NaCl) Magnesium Chlorid Hexahydrat (MgCl2 · H2O) und Kaliumcarbonat K2CO3 sind einfach verfügbar und generieren eine Luftfeuchtigkeit, welche relativ stabil bei Temperaturänderungen sind. Jedoch ist diese Methode nach den vorgaben des Deutschen Kalibrierdienstes nicht für Kalibrierungen geeignet.[^4] Bei adequater Nutzung sind sie jedoch für die Überprüfung von Sensoren ausreichend.
+
 <br/><br/>
+
 ## 3.1 Material
 |Menge|Material|Dimensionen|
 |-----|--------|-----------|
@@ -85,11 +87,14 @@ Eine Bedingung für Open-Source-Hardware ist die breite Verfügbarkeit von Resso
 ## 3.3 Aufbau
 
 ### 3.3.1 Dämmung
-Aus den Dämmplatten wird eine Box von X x X mm gebaut. Darin werden die drei PP-Boxen positioniert. Die äußere Box dient zur thermischen Stabilisierung des Versuchsaufbaus. Ggf. kann diese durch das Auffüllen der Leerräume noch erhöht werden. 
+Aus den Dämmplatten wird eine Kiste gebaut. Darin werden die drei PP-Boxen positioniert. Die äußere Kiste dient zur thermischen Stabilisierung des Versuchsaufbaus. Ggf. kann diese durch das Auffüllen der Leerräume noch erhöht werden. 
+
 <br/><br/>
+
 ### 3.3.2 Ansetzen der Lösungen
-Die drei PP-Boxen werden zunächst abgewaschen, mit destilliertem Wasser ausgespült und anschließend mit einem Faserfreiem Tuch getrocknet. Anschließend wird in jeweils eine der Boxen ein Salz eingefüllt bis der Boden bedeckt ist welches dann mit destilliertem Wasser benetzt wird, bis eine trüber Mischung entsteht. 
+Die drei PP-Boxen werden zunächst abgewaschen, mit destilliertem Wasser ausgespült und anschließend mit einem faserfreiem Tuch getrocknet. Anschließend wird in jeweils eine der Boxen ein Salz eingefüllt bis der Boden bedeckt ist welches dann mit destilliertem Wasser benetzt wird, bis eine trüber Mischung entsteht. 
 Eine Übersättigung muss vermieden werden. 
+
 <br/><br/>
 
 ### 3.3.3 Herstellung der Standfüße
@@ -116,7 +121,7 @@ Als erstes muss die Angleichszeit bestimmt werden, in der das Feuchtigkeitsgleic
 Hierfür wird die Salzlösung angesetzt, die Füße eingesetzt und der Testo H175 mittig platziert. Visuell kann über das Display des Referenzgerätes das Erreichen der Zielfeuchte kontrolliert und die Daten anschließend ausgewertet werden.
 Der Vorgang wird in jeder Box wiederholt. Ggf. kann der Versuch mit und ohne Membran wiederholt werden.
 
-Nach DKD-R 5-8 wird die angleich und Messzeitraum wiefolgt bestimmt:
+Nach DKD-R 5-8 wird die angleich und Messzeitraum wiefolgt bestimmt:[^5]
 
 ![Angleichszeit und Messzeitraum nach DKD-R 5-8](https://github.com/ZieBar/M.A.-Thesis/blob/9bfccf15ac7a891084de5ca83df9ba364f1dc509/Experiment/Abbildungen/Angleichzeit_DKD.JPG)
 Abbildung aus der DKD-R 5-8. This picture is lisenced under cc by-nc-nd-license.
@@ -229,14 +234,12 @@ Eine Normgerechte Kalibrierung ist sehr aufwendig und nur mit vielen zusätzlich
 direkten Erfassung der relativen Feuchte, Physikalisch-Technische Bundesanstalt,
 Braunschweig und Berlin. DOI: 10.7795/550.2019021, S.30
 
-[^2]: Richtlinie DKD-R 5-8, Ausgabe 02/2019, Revision 0, Kalibrierung von Hygrometern zur
-direkten Erfassung der relativen Feuchte, Physikalisch-Technische Bundesanstalt,
-Braunschweig und Berlin. DOI: 10.7795/550.2019021, S.30
+[^2]: DKD-R 5-8, S.30
 
 [^3]: Oberloier, S., Pearce, J., 2017. General Design Procedure for Free and Open-Source Hardware for Scientific Equipment. Designs 2, 2. https://doi.org/10.3390/designs2010002
 
-[^4]: Richtlinie DKD-R 5-8, Ausgabe 02/2019, Revision 0, Kalibrierung von Hygrometern zur
-direkten Erfassung der relativen Feuchte, Physikalisch-Technische Bundesanstalt,
-Braunschweig und Berlin. DOI: 10.7795/550.2019021, S.30
+[^4]: DKD-R 5-8, S.30
+
+[^5]: DKD-R 5-8, S. 48
 
 

@@ -75,7 +75,6 @@ Repeating the measurement with the box on top of a rolling cart showed a tempera
 ## 3.2 Cleaning the experiment hardware
 
 A box and lid are cleaned using a small amount of detergent and then rinsed thoroughly with tap water. Afterwards they are rinsed again with destilled water to remove other minerals (optional).
-
 The stands with the PE-fiber-membrane were cleaned with a vacuum.
 
 ## 3.3 Configuring the data-logger
@@ -88,6 +87,13 @@ The experiment was started on June 9th 2023 at 14:17.
 As the magnesium chloride dissolves rather quickly, a smaller quantity of water would have been sufficient. 50 g of salt where added afterwards to avoid that all salt crystals dissolve. 
 The right way to create salt solutions is difficult to establish. MostraLog asks for the salt only to be wetted, while Robert Smith says it's enough to have undissolved crystals in the solution.
 
+## 3.5 Starting the measuring procedure
+
+After the salt solution was prepared, the three stands where assembled and placed inside the box. The reference-data-logger was placed with the sensor in the middle of the box. To mimic the actual experiment conditions, the three breadboards with the sensors and microcontrollers where put inside the box as well. 
+The closed box was placed inside the isolating polystyrol box and the lid closed.
+Measuring started on June 9th 2023 at 14:17.
+
+On monday June 12th the box can be opend and the environment can be controlled using the dataloggers display. If a relative Humidity of 33.1% at 21°C was achieved, the experiment will be stoped.
 
 [^1]: telefon call on May 31st 2023
 [^2]: MostraLog calibration boxes manual

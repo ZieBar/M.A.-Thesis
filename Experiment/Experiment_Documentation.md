@@ -91,7 +91,19 @@ The right way to create salt solutions is difficult to establish. MostraLog asks
 
 After the salt solution was prepared, the three stands where assembled and placed inside the box. The reference-data-logger was placed with the sensor in the middle of the box. To mimic the actual experiment conditions, the three breadboards with the sensors and microcontrollers where put inside the box as well. 
 The closed box was placed inside the isolating polystyrol box and the lid closed.
-Measuring started on June 9th 2023 at 14:17.
+
+### June 9th 2023, 14:17
+
+Measuring started
+
+#### June 12th 2023, 9:31
+
+relative Humidity: 33,9 %
+Temperature 20,6 °C
+
+I will extend the time frame for another 24 hours to check if it will arrive at 33.2%.
+
+
 
 On monday June 12th the box can be opend and the environment can be controlled using the dataloggers display. If a relative Humidity of 33.1% at 21°C was achieved, the experiment will be stoped.
 

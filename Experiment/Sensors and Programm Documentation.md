@@ -2,6 +2,8 @@ Documentation of the Sensors and Programs for the experiment
 ===
 # Sensors chosen and properties
 
+For the scope of this project it was important to choose sensors, whos operating range is within the standard museum environment and the more challenging condition of monuments without heating or airconditioning, as these could be the potential scenarios in which they could be deployed.
+
 ||BME280|BME680|DHT22|SHT31|SHT41|SHT85|
 |---|---|---|---|---|---|---|
 |Comunication|I2C, SPI|I2C, SPI|One-Wire|I2C, SPI|I2C, SPI|I2C, SPI|

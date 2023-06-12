@@ -1,5 +1,7 @@
 Documentation of the Sensors and Programs for the experiment
 ===
+# Sensors chosen and properties
+
 ||BME280|BME680|DHT22|SHT31|SHT41|SHT85|
 |---|---|---|---|---|---|---|
 |Comunication|I2C, SPI|I2C, SPI|One-Wire|I2C, SPI|I2C, SPI|I2C, SPI|

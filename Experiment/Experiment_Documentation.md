@@ -103,6 +103,7 @@ relative Humidity: 33,9 %
 Temperature 20,6 °C
 
 I will extend the time frame for another 24 hours to check if it will arrive at 33.2%.
+Probably the goal temperature needs to be changed from 20°C to 20,5°C or 20,6°C. For this value I have no corresponding rH value at the time. Thus I need to stick with 33,2%.
 
 
 

@@ -97,16 +97,20 @@ The closed box was placed inside the isolating polystyrol box and the lid closed
 Measuring started
 On monday June 12th the box can be opend and the environment can be controlled using the dataloggers display. If a relative Humidity of 33.1% at 21°C was achieved, the experiment will be stoped.
 
-#### Monday, June 12th 2023, 9:31
+### Monday, June 12th 2023, 9:31
 
-relative Humidity: 33,9 %
-Temperature 20,6 °C
+relative humidity: 33,9 %
+temperature 20,6 °C
 
 I will extend the time frame for another 24 hours to check if it will arrive at 33.2%.
 Probably the goal temperature needs to be changed from 20°C to 20,5°C or 20,6°C. For this value I have no corresponding rH value at the time. Thus I need to stick with 33,2%.
 
+### Tuesday June 13th, 10:37
 
+relative humidity: 33,9 %
+temperature: 20.5°C
 
+As the relative humidity remains unchanged, the experiment is now terminated. 
 
 
 [^1]: telefon call on May 31st 2023

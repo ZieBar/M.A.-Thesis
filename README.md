@@ -5,7 +5,7 @@ CC BY-SA 4.0
 M.A.-Thesis on open-source dataloggers for museums and archives
 ===
 This repository is used to exchange information and data with thesis supervisors and others
-This Reopository contains Informations, Models and Code created for my M.A. thesis at the HTW-Berlin from May to September 2023 
+This reopository contains informations, models and code created for my M.A. thesis at the HTW-Berlin from May to September 2023 
 
 # Topic of the thesis
 The thesis is looking in to the possibilities and limitations of open-source dataloggers. 
@@ -34,5 +34,5 @@ I want to saperate the single senor-modules from the products. Meaning: the prec
 [^3]: Staniforth, S. (Ed.) Historical Perspectives on Preventive Conservation, Readings in Conservation. Getty Conservation Institute, Los Angeles,, 2013.
 
 [^4]: Gaudenzi Asinelli, M., Serra Serra, M., Molera Marimòn, J., Serra Espaulella, J., The smARTS_Museum_V1: An open hardware device for remote monitoring of Cultural Heritage indoor environments | Elsevier Enhanced Reader. Hardware X 4, 2018, 2–18. https://doi.org/10.1016/j.ohx.2018.e00028
-OSF Repositorium of the project: https://osf.io/w963q/#!
+OSF Repository of the project: https://osf.io/w963q/#!
 

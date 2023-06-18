@@ -112,6 +112,14 @@ temperature: 20.5°C
 
 As the relative humidity remains unchanged, the experiment is now terminated. 
 
+### Wendsday June 14th
+
+The second solution to be tested was potassium carbonate. Dissolving the salt in water resulted in a noticable develpoment of heat and thus heavy condensation on the inside of the PP-box. The experiment was interrupted immideatly to protect the measuring equipment.
+
+A quick internet search supported this observation. Potassium carbonate is therefore unsiuted for this experiment, as the solution could effect its the thermal stability.
+
+
+
 
 [^1]: telefon call on May 31st 2023
 [^2]: MostraLog calibration boxes manual

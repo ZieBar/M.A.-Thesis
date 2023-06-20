@@ -128,11 +128,13 @@ Abbildung aus der DKD-R 5-8. This picture is lisenced under cc by-nc-nd-license.
 
 <br/><br/>
 
-I) Erreichen einer Abweichung von <2% der Relativen Luftfeuchte oder 2°K vom Sollwert  
-II) WarteZeit von mind. 30 min  
+I) Erreichen einer Abweichung von < 2 % der Relativen Luftfeuchte oder 0,2 °K vom Sollwert  
+II) Wartezeit von mind. 30 min  
 III) Messwertaufnahme, mind. 10 Messwerte in 10 Minuten  
 IV) Wartezeit von 10 Minuten  
 V) Wiederholung von III  
+Ist die Messabweichung zwischen III und V kleiner als 2 0% der die angestrebte Messunsicherheit, ist eine ausreichende Angelichszeit eingehalten worden.
+
 
 Da weder ein Heiz- noch ein Kühlelement im Versuchsaufbau vorgesehen sind, wird in diesem Fall eine Temperatur von 21°C als Zieltemperatur und 33,0 % relativer Luftfeuchtigkeit. 
 Sollte sich die Temperatur trotz Dämmung als zu instabil erweisen, kann das Experiment mit einer Reptilienheizmatte erweitert werden. Dabei sollte eine Temperatur höher als die Raumtemperatur angestrebt werden (z.b. 25°C bei 32,8% rH). Eine Heizmatte könnte jedoch auch, aufgrund der Hysterese der verbauten Sensoren und der benötigten Reaktionszeit der Heizelemente weitere Unsicherheiten in den Messaufbau einbringen.

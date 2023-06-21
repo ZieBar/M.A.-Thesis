@@ -169,7 +169,7 @@ Je nach Aufbau des Klimaschranks werden die Sensoren und das Referenzgerät im I
 Der Ablauf der DKD-R 5-8 wird als Vorbild für dieses Experiment genommen. Der Ausgangspunkt S0 muss dabei 5% unterhalb des niedrigsten Wertes N1a bzw. N1b liegen. Für jede gewählte Temperatur müsste dann ein Durchlauf gemacht werden.
 Zunächst muss, wie bei Möglichkeit 1 die Angleichzeit bestimmt werden. Der Wert wird dann für eine halbe Stunde gehalten, wobei pro Minute eine Messung erfolgt.[^6] 
 
-![Abbildung des Ablauf A1]([https://private-user-images.githubusercontent.com/133433673/244195778-9ad5f55b-38cf-45b4-8b47-082ebfe0d7e0.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJrZXkiOiJrZXkxIiwiZXhwIjoxNjg2MTcxNjAxLCJuYmYiOjE2ODYxNzEzMDEsInBhdGgiOiIvMTMzNDMzNjczLzI0NDE5NTc3OC05YWQ1ZjU1Yi0zOGNmLTQ1YjQtOGI0Ny0wODJlYmZlMGQ3ZTAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQUlXTkpZQVg0Q1NWRUg1M0ElMkYyMDIzMDYwNyUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyMzA2MDdUMjA1NTAxWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NWZmN2FmYTg4M2Y5NTI5ODFmZTVkZTM2YjZlYTdlYzQ3MzI0ZjU4YWNkZTg1MjY5YTM4YWExOTdmY2Y5MmRhOCZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.zkb7xwSszgTqzkli2PAi-7Sz18GCr5hAT-9qvQMmzbc](https://github.com/ZieBar/M.A.-Thesis/blob/d7d4526d835e03e4b6ee28ca79edcc089e73cbb5/Experiment/Abbildungen/Ablauf%20A1.JPG))
+![Abbildung des Ablauf A1](Experiment/Abbildungen/Ablauf A1.JPG)
 Abbildung aus der DKD-R 5-8. This picture is lisenced under cc by-nc-nd-license
 
 <br/><br/>

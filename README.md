@@ -25,7 +25,11 @@ Thus I want propose two different methodologies that should be able to approxima
 ## Empowering people to create diy-solutions
 I want to saperate the single senor-modules from the products. Meaning: the precision of a product like the smArts_Museum_V1 does not depend on the datalogger in and of it self, but largly on the sensor used and vice versa: if I want to use a sensor like the DHT22 I don't need to neccessarily use the smArts_Museum_V1. By focusing on the sensors I want to give people, developiong projects or experiments, an overview of possibile components and their limitations, so they can choose the appropriate one.
 
+# How to use this repository
+This Repository is documenting a work in pogress so the structure might change throughout the project.
 
+> The folder 3D-Modelle contains the .slt- and freecad-files as well as a jpg. depiction of the 3D-printed feet for the experiment.
+> The folder "Experiment" contains the description of the planed experiment, the documentation of the experiment and the documentation of the programm used for the experiment.
 
 [^1]: Waller, R. Conservation risk assessment: A strategy for managing resources for preventive conservation. Studies in Conservation 39, 12–16, 1994.
 

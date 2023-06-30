@@ -111,6 +111,7 @@ relative humidity: 33,9 %
 temperature: 20.5°C
 
 As the relative humidity remains unchanged, the experiment is now terminated. 
+> The experiment was repeated on June 30th using a different logger of the same type. The logger showed a measurement of 33,4%. Comparing the calibration-ceritificates showed that the first logger had a deviation of 1% rH at 23°C and 30% (Certified on April 11th 2023), while the second one showed a deviation of -0,3 % at 45.9 % rH (no date given in the certificate).
 
 ### Wendsday June 14th
 

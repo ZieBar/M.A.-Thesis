@@ -61,7 +61,7 @@ none
 
 **Overall Open-o-Meter Score: 0/8**
 
-### Remarks
+### Notes
 The project explicitly states the **use** of OSH instead of the development of a monitoring system. Thus the low score is not in and of itself a defact. 
 Neither in the article nor via google search was it possibile to find any further information (github repository or similar).
 
@@ -114,7 +114,7 @@ none
 **Overall Open-o-Meter Score: 0.5/8**
 > Even though the Open-o-Meter doesn't allow for half points, the effort made in the article to show the components used and the working of the program is better than in other publications. Though the article is not open access...
 
-### Remarks
+### Notes
 Even though the project explicitly promotes the use of OSH and the open sharing of data, no information on a repository could be found. Additionally the fact that the article was pubblished in a non open access journal makes it difficult to get the information and promote the concept.
 
 ## 3 An Open-Source, Internet of Things Approach for Remote Sensing in Museums
@@ -137,20 +137,20 @@ Even though the project explicitly promotes the use of OSH and the open sharing 
 - "It is costumizable while requiring hobbyist-level proficiency in programming and electronics..." (p. 174)
 
 ### List of components
-- Arduino UNO R3 
-- DHT22
-- LM35
-- XBee-Shield
-- RTC-Module
-- HC-06 (Bluetooth-modem)
-- SD-Card module
-- ATX Powersupply and solarpanel
+- MSP430 (µCU) 
+- Vishay TEMD6010FX01 (photodiode)
 
 ### Technologies
-- MATLAB for Data analisys and processing
+- SWAP transmission protocoll for direct transmission between WSN (Wireless Sensor Node) and Gateway (below 868 MHz)
+    - allowes for up to 256 nodes (p.170)
+- Largato as Opensource Webserver
+- NodeRed to interact with data
+
 
 ### Other interesting information regarding this research
-none
+- high frequency waves provide faster data transmission (p. 169)
+- lower frequencies are better in longdistance and penetration (p. 169)
+- it is important to look up allowed frequencies fot the purpose which depend on the region (p. 168)
 ### Open-o-Meter
 |License|Availability of files|Bill of materials|Assembly instructions|Editability|Version control system|Guidance on collaboration|Issue tracking system|
 |---|---|---|---|---|---|---|---|
@@ -159,10 +159,184 @@ none
 **Overall Open-o-Meter Score: 0/8**
 >Though explicitly states to develope an open source solution!
 
-### Remarks
-For the title and the statements in the text a dissapointingly low score! The system though **using** OSH is in and of itself **not** open source!
+### Notes
+For the title and the statements in the text a surprinsingly low score! The system though **using** OSH is in and of itself **not** open source!
 All in all the article is still worth reading as it contains a lot of infomation on technologies, their advantages an limitations, espacially regarding wireless communication. These statments where confirmed in conversation with other experts in the field of electronics and wireless communications.[^2]
+
+## 4 Low cost monitoring approach for the conservation of frescos: The crypt of St. Francesco d’Assisi in Irsina (Basilicata, Southern Italy)
+
+> Maria Sileo, Fabrizio Terenzio Gizzi, Nicola Masini,
+Low cost monitoring approach for the conservation of frescoes: The crypt of St. Francesco d’Assisi in Irsina (Basilicata, Southern Italy),
+Journal of Cultural Heritage,
+Volume 23, Supplement,
+2017,
+Pages 89-99,
+ISSN 1296-2074,
+https://doi.org/10.1016/j.culher.2016.11.011.
+(https://www.sciencedirect.com/science/article/pii/S1296207416304009) 
+
+>### **Case study** 
+
+> **Not** Open Acess (though available on Research Gate)
+
+### Research goals
+- "Comparative analysis of the two systems", "low cost aparatus [...] based open source hardware and software" and "standard commercial system". "The basic idea is to try to reduce significantly the purchase and maintanence costs, so as to encourage the use of low cost monitoring systems on a large scale." (p. 1)
+
+### Results
+- "...the comparison of the data collected from the two different systems does not seem to highlight substantial differences between the LC and the CS systems, highlighting the potential of low cost systems for extensive monitoring of cultural heritage." (p. 10 f.)
+
+### List of components
+- no information provided other than "based on Arduino" (p. 1)
+
+### Technologies
+n.A.
+
+### Other interesting information regarding this research
+none
+
+### Open-o-Meter
+|License|Availability of files|Bill of materials|Assembly instructions|Editability|Version control system|Guidance on collaboration|Issue tracking system|
+|---|---|---|---|---|---|---|---|
+|0|0|0|0|0|0|0|0|
+
+**Overall Open-o-Meter Score: 0/8**
+
+### Notes
+An overall unremarkable article for the scope of this research. Methodology for comparison is not suited and no information provided for replication of the experiment.
+
+## 5 Wireless Sensor Platform for Cultural Heritage Monitoring and Modeling System
+
+> Klein, L.J.; Bermudez, S.A.; Schrott, A.G.; Tsukada, M.; Dionisi-Vici, P.; Kargere, L.; Marianno, F.; Hamann, H.F.; López, V.; Leona, M. Wireless Sensor Platform for Cultural Heritage Monitoring and Modeling System. Sensors 2017, 17, 1998. https://doi.org/10.3390/s17091998 
+
+>### **Case study** 
+
+> Open Acess
+
+### Research goals
+- assesing the environment of a museum using wireless sensor nodes (focus is on the assesment of the environment not on the sensor nodes)
+
+### Results
+- datalogging is good
+
+### List of components
+- SHT3x
+- STM32L4x based on ARM Cortex-M (µCU) => "...due to it's wide adoption." (p.573)
+- CC1101EMK868-915 (radio module)
+- MultiConnect Conduit MTCDT-210A by Multitech (Gateway)
+
+### Technologies
+- modeling of environment
+
+### Other interesting information regarding this research
+- ICOM-CIDOC provides good practices on museum documentation based on ISO 21124:2014 (p. 576)
+
+### Open-o-Meter
+|License|Availability of files|Bill of materials|Assembly instructions|Editability|Version control system|Guidance on collaboration|Issue tracking system|
+|---|---|---|---|---|---|---|---|
+|0|0|0|0|0|0|0|0|
+
+**Overall Open-o-Meter Score: 0/8**
+
+### Notes
+- not an open source project
+- term doesn't appear in text
+- still interesting to argue for the deployment of more dataloggers
+
+## 6 An energy-efficient internet of things (IoT) architecture for preventive conservation of cultural heritage
+
+> Angel Perles, Eva Pérez-Marín, Ricardo Mercado, J. Damian Segrelles, Ignacio Blanquer, Manuel Zarzo, Fernando J. Garcia-Diego,
+An energy-efficient internet of things (IoT) architecture for preventive conservation of cultural heritage,
+Future Generation Computer Systems,
+Volume 81,
+2018,
+Pages 566-581,
+ISSN 0167-739X,
+https://doi.org/10.1016/j.future.2017.06.030.
+(https://www.sciencedirect.com/science/article/pii/S0167739X17313663)
+
+>### **Conception and Case study** 
+
+> Open Acess
+
+### Research goals
+- "...asses the performance of our proposal" => LoRa or Sigfox based Sensor Nodes (p. 567)
+
+### Results
+- "The standard defacto LoRa and Sigfox in the ISM [Industrial, Scientific and Medical - Band of frequencies]of 868 MHz were found to be suitable for monitoring artworks" (p. 579)
+- "The elected wireless technology copes with the need of reaching relative long distances and pass through thick walls that are typical scenarios in artwork containersor open archaeological sites." (p- 579)
+- "We propose using Infrastructure Manager and EC3 combined with cloud technologies to make the architecture open and reproducible so that anyone could deploy an equivalent virtual infrastructure on a public or on-premise cloud."
+
+### List of components
+- SHT3x
+- STM32L4x based on ARM Cortex-M (µCU) => "...due to it's wide adoption." (p.573)
+- CC1101EMK868-915 (radio module)
+- MultiConnect Conduit MTCDT-210A by Multitech (Gateway)
+
+### Technologies
+- LoRa and Sigfox
+- Mongo DB as cloud-service
+
+### Other interesting information regarding this research
+- ICOM-CIDOC provides good practices on museum documentation based on ISO 21124:2014 (p. 576)
+
+### Open-o-Meter
+|License|Availability of files|Bill of materials|Assembly instructions|Editability|Version control system|Guidance on collaboration|Issue tracking system|
+|---|---|---|---|---|---|---|---|
+|0|0|0|0|0|0|0|0|
+
+**Overall Open-o-Meter Score: 0/8**
+
+### Remarks
+Does not use the term OSH
+
+## 7 The smARTs_Museum_V1: an open hardware device for monitoring of Cultural Heritage indoor environments
+
+> Mainardo Gaudenzi Asinelli, Moisès Serra Serra, Judit Molera Marimòn, Jordi Serra Espaulella,
+The smARTS_Museum_V1: An open hardware device for remote monitoring of Cultural Heritage indoor environments,
+HardwareX,
+Volume 4,
+2018,
+e00028,
+ISSN 2468-0672,
+https://doi.org/10.1016/j.ohx.2018.e00028.
+(https://www.sciencedirect.com/science/article/pii/S2468067217300834)
+
+>### **Conception and Case study** 
+
+> Open Acess
+
+### Research goals
+- "desinign, prototyping and experimenting low cost, easy to use and to customize, free and open source software and hradware device for remote monitoring of typical indoor Cultural Heritage  environments..."(p. 2)
+
+### Results
+- "The standard defacto LoRa and Sigfox in the ISM [Industrial, Scientific and Medical - Band of frequencies]of 868 MHz were found to be suitable for monitoring artworks" (p. 579)
+- "The elected wireless technology copes with the need of reaching relative long distances and pass through thick walls that are typical scenarios in artwork containersor open archaeological sites." (p- 579)
+- "We propose using Infrastructure Manager and EC3 combined with cloud technologies to make the architecture open and reproducible so that anyone could deploy an equivalent virtual infrastructure on a public or on-premise cloud."
+
+### List of components
+- SHT3x
+- STM32L4x based on ARM Cortex-M (µCU) => "...due to it's wide adoption." (p.573)
+- CC1101EMK868-915 (radio module)
+- MultiConnect Conduit MTCDT-210A by Multitech (Gateway)
+
+### Technologies
+- LoRa and Sigfox
+- Mongo DB as cloud-service
+
+### Other interesting information regarding this research
+- ICOM-CIDOC provides good practices on museum documentation based on ISO 21124:2014 (p. 576)
+
+### Open-o-Meter
+|License|Availability of files|Bill of materials|Assembly instructions|Editability|Version control system|Guidance on collaboration|Issue tracking system|
+|---|---|---|---|---|---|---|---|
+|1|1|1|0|0|1|0|1|
+
+**Overall Open-o-Meter Score: 5/8**
+
+### Remarks
+Does not use the term OSH
+
 
 # Citations
 [^1] **Bonvoisin et al. 2018:** Jérémy Bonvoisin, Robert Mies, Measuring Openness in Open Source Hardware with the Open-o-Meter, in: Envisaging the future manufacturing, design, technologies and systems in innovation era, 6th CIRP Global Web Conference, no date, 2018.
-[^2] Thanks to from IoT-plan GmbH for sharing their knowledge and experience.
+[^2] Thanks to Christian Rudolf and Simon Rietschel from IoT-plan GmbH for sharing their knowledge and experience.

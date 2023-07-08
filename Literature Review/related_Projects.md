@@ -359,7 +359,221 @@ some of the files are available in en editable format
 #### Data available on OSF
 - Code needs to be updated => DHT 22 is read only once per cycle thus giving out only the data of the last reading (see data sheet)[^3]
 - timeshift could maybe be eliminated using the millis()-function, which measures the time since the stard of the program, thus eliminating wake-up, connection and measurement times
-- 
+- only few files in an editable format
+- no indication on how to colaborate or if colaboration is welcomed
+
+## 8 Preservation of Cuultural Heritage Sites using IoT
+
+> M. Maksimović and M. Ćosović, "Preservation of Cultural Heritage Sites using IoT, 2019 18th International Symposium INFOTEH-JAHORINA (INFOTEH), East Sarajevo, Bosnia and Herzegovina, 2019, pp. 1-4, doi: 10.1109/INFOTEH.2019.8717658.
+
+>### **Conception and Case study** 
+
+> Open Acess
+
+### Research goals
+- "...proposes an effective and affordable solution for the monitoring of preservation conditions of the Church based on the utilization of modern Information and Communication Technologies (ICT) and services." (p. 1)
+- "... first step towards the realization."
+
+### Results
+- "...general structure and main design principles using the three-layer IoT architecture" (p. 4)
+
+
+### List of components
+n.A.
+### Technologies
+n.A.
+### Other interesting information regarding this research
+- framwork of 3 layer IoT architecture (p. 2f.)
+    - Perception layer (Sensor Nodes)
+    - Network layer (transmission protocol for sending data)
+    - Application layer (data storage, processing and analysis)
+
+### Open-o-Meter
+|License|Availability of files|Bill of materials|Assembly instructions|Editability|Version control system|Guidance on collaboration|Issue tracking system|
+|---|---|---|---|---|---|---|---|
+|0|0|0|0|0|0|0|0|
+
+>#### Overall Open-o-Meter Score: 0/8
+
+Not planed as open source project.
+
+### Notes
+- does not explicitly state the intent of using or developing OSH
+- cites article No. 1 as related work (only mention of OSH)
+- interesting insites on the general architecture
+
+## 9 An Internet-of-Things End-User Development Approach to Environmental Monitoring of Cultural Heritage Archives
+
+>Maceli, M.G. (2019). An Internet-of-Things End-User Development Approach to Environmental Monitoring of Cultural Heritage Archives. In: Malizia, A., Valtolina, S., Morch, A., Serrano, A., Stratton, A. (eds) End-User Development. IS-EUD 2019. Lecture Notes in Computer Science(), vol 11553. Springer, Cham. https://doi.org/10.1007/978-3-030-24781-2_10
+
+>### **User Survey + development of prototype** 
+
+> Open Acess
+
+### Research goals
+- What end-user development behaviors might archivists want to engage in?
+- How well are these supported by current open-source Internet-of-Things technologies? (p. 2)
+- a final prototype is constructed, and the implications for the study and practice of end-user development are considered
+
+### Results
+- "...design and development of an open-source system prototype, giving an opportunity to reflect upon the challenges and opportunities of the intersection of Internet-of-Things technologies and end-user development behaviors" (p. 156)
+- Systems need to allow:
+    - modifying data reports to suit various stakeholders (p. 154)
+    - physically customizing the devices to change parts or integrate unobtrusively into the space
+- System features:
+    - data visualization interface with charts, export options, value ranges and exceeded alerts
+    - web and mobile access
+    - real-time data, and a date range selector
+
+- unmet needs discussed had been compensated for by performing additional manual work outside of the existing system, or by incurring greater cost to the organization
+- These findings were employed in building a prototype system allowing for future end-user modification in use, with an emphasis on using open source and open hardware inasmuch as possible, to potentially facilitate deep customization (p. 152)
+
+### List of components
+n.A.
+### Technologies
+- Grafana for creating a dashboard
+### Other interesting information regarding this research
+- in general a lot of interesting articles on this topic by the author, which are interesting to have a look at
+
+### Open-o-Meter
+|License|Availability of files|Bill of materials|Assembly instructions|Editability|Version control system|Guidance on collaboration|Issue tracking system|
+|---|---|---|---|---|---|---|---|
+|0|0|0|0|0|0|0|0|
+
+>#### Overall Open-o-Meter Score: 0/8
+
+Not planed as open source project in and of it self.
+
+### Notes
+- it would have been nice to have a documentation etc. on gitHub or similar
+
+## 10 Internet of things in the archives: novel tools for environmental monitoring of archival collections
+
+> Maceli, M. (2020), "Internet of things in the archives: novel tools for environmental monitoring of archival collections", Records Management Journal, Vol. 30 No. 2, pp. 201-220. https://doi.org/10.1108/RMJ-08-2019-0046 
+
+>### **User Survey + development of prototype** 
+
+> Open Acess
+
+### Research goals
+- "..research work was to assess the feasibility of do-it-yourself (DIY) and open source tools for archival environmental monitoring, the assumption was that systems chosen must use robust security measures, without the need for extensive coding or security expertise to deploy." (p. 6)
+
+Q1. Can currently popular general-purpose IoT devices, standards and technologies effectively support the environmental monitoring needs of archivists? (p. 3)
+
+Q2. What barriers to use and/or potential challenges exist?
+
+### Results
+- "The constructed system met archivists’ needs well and was generally noted to be easy-to-use, effective, and an improvement on existing systems. This suggests that an IoT approach can support archivists’ needs in this realm." (p. 18)
+- "Future work will explore longitudinal case studies of the system within archival organizations, as well as the development of additional features suggested by archivist usability study participants."
+
+### List of components
+- Si7021 (rH and T-Sensor)
+- Feather M0 RFM95 (µCU) => quite expensive (34,95 $US on Adafruit, 20230708)
+-Particle Mesh Xenon (µCU) => discontinued (20230708)
+### Technologies
+- Grafana for creating a dashboard
+- LoRaWAN
+### Other interesting information regarding this research
+- LoRaWAN as a suitable technology
+- good depictions of architectures and general working principles
+
+### Open-o-Meter
+|License|Availability of files|Bill of materials|Assembly instructions|Editability|Version control system|Guidance on collaboration|Issue tracking system|
+|---|---|---|---|---|---|---|---|
+|0|0|0|0|0|0|0|0|
+
+>#### Overall Open-o-Meter Score: 0/8
+
+### Notes
+- documentation etc. on gitHub or similar would be important
+
+## 11 IoT-MHECHA: A new IoT architecture for Monitoring Health and Environmental parameters in Cultural Heritage and Archaeological sites
+
+> Giuseppe Campobello, Alessio Altadonna, Fabio Todesco, Nicola Donat, "IoT-MHECHA: A new IoT architecture for Monitoring Health and Environmental parameters in Cultural Heritage and Archaeological sites", 2020 IMEKO TC-4 International Conference on Metrology for Archaeology and Cultural Heritage Trento, Italy, October 22-24, 2020
+
+>### **development of system and case study** 
+
+> Open Acess
+
+### Research goals
+- "we exploit WSN and IoT technologies in order to define a new architecture for health and environmental monitoring of cultural heritage sites. In particular, the proposed architecture can be profitably used for both indoor and outdoor environments, e.g. museums and archaeological sites" (p. 287)
+
+- it supports a broad range of sensors, from simple temperature and humidity sensors to gas and sound sensors. This large number of available sensors enables a broad range of applications. 
+- it integrates several wireless technologies, i.e. ZigBee, Bluetooth, WiFi and LoRa. In particular, the LoRa protocol enables long-range communications (up to tens of kilometers) which is an essential feature for monitoring archaeological sites. 
+- the software used to implement the architecture is open source and readily available. Therefore the architecture can be easily replicated and extended.
+
+### Results
+- "onitoring of cultural heritage sites named IoT-MHECHA. The architecture supports a wide range of sensors and communication protocols and thus can be profitably used in several applications, considering both indoor and outdoor scenarios" (p. 291)
+- "Future work will explore longitudinal case studies of the system within archival organizations, as well as the development of additional features suggested by archivist usability study participants."
+
+### List of components
+- Si7021 (rH and T-Sensor)
+- Feather M0 RFM95 (µCU) => quite expensive (34,95 $US on Adafruit, 20230708)
+-Particle Mesh Xenon (µCU) => discontinued (20230708)
+### Technologies
+- Octopus for desining NM-GUI
+    - Octopus is able to show sensor network topology and enable remote configuration of sensor node parameters, such as sampling period and duty-cycle of the radio interface (p. 289)
+
+### Other interesting information regarding this research
+none
+
+### Open-o-Meter
+|License|Availability of files|Bill of materials|Assembly instructions|Editability|Version control system|Guidance on collaboration|Issue tracking system|
+|---|---|---|---|---|---|---|---|
+|0|0|0|0|0|0|0|0|
+
+>#### Overall Open-o-Meter Score: 0/8
+"Starting from open source software we developed..." (p. 291)
+
+### Notes
+- no documentation thus resulting in a non open source product
+- also more OSS than OSH
+
+## 12 Development of an IoT Structural Monitoring System Applied to a Hypogeal Site
+
+> De Angelis A, Santoni F, Carbone P, Cecconi M, Vecchietti A, Di Lorenzo F. Development of an IoT Structural Monitoring System Applied to a Hypogeal Site. Sensors (Basel). 2020 Nov 26;20(23):6769. doi: 10.3390/s20236769. PMID: 33256201; PMCID: PMC7730998.
+
+>### **development of system and case study** 
+
+> Open Acess
+
+### Research goals
+- "we exploit WSN and IoT technologies in order to define a new architecture for health and environmental monitoring of cultural heritage sites. In particular, the proposed architecture can be profitably used for both indoor and outdoor environments, e.g. museums and archaeological sites" (p. 287)
+
+- it supports a broad range of sensors, from simple temperature and humidity sensors to gas and sound sensors. This large number of available sensors enables a broad range of applications. 
+- it integrates several wireless technologies, i.e. ZigBee, Bluetooth, WiFi and LoRa. In particular, the LoRa protocol enables long-range communications (up to tens of kilometers) which is an essential feature for monitoring archaeological sites. 
+- the software used to implement the architecture is open source and readily available. Therefore the architecture can be easily replicated and extended.
+
+### Results
+- "onitoring of cultural heritage sites named IoT-MHECHA. The architecture supports a wide range of sensors and communication protocols and thus can be profitably used in several applications, considering both indoor and outdoor scenarios" (p. 291)
+- "Future work will explore longitudinal case studies of the system within archival organizations, as well as the development of additional features suggested by archivist usability study participants."
+
+### List of components
+- Si7021 (rH and T-Sensor)
+- Feather M0 RFM95 (µCU) => quite expensive (34,95 $US on Adafruit, 20230708)
+-Particle Mesh Xenon (µCU) => discontinued (20230708)
+### Technologies
+- Octopus for desining NM-GUI
+    - Octopus is able to show sensor network topology and enable remote configuration of sensor node parameters, such as sampling period and duty-cycle of the radio interface (p. 289)
+
+### Other interesting information regarding this research
+none
+
+### Open-o-Meter
+|License|Availability of files|Bill of materials|Assembly instructions|Editability|Version control system|Guidance on collaboration|Issue tracking system|
+|---|---|---|---|---|---|---|---|
+|0|0|0|0|0|0|0|0|
+
+>#### Overall Open-o-Meter Score: 0/8
+"Starting from open source software we developed..." (p. 291)
+
+### Notes
+- no documentation thus resulting in a non open source product
+- also more OSS than OSH
+
+
+
+
 
 # Citations
 [^1] **Bonvoisin et al. 2018:** Jérémy Bonvoisin, Robert Mies, Measuring Openness in Open Source Hardware with the Open-o-Meter, in: Envisaging the future manufacturing, design, technologies and systems in innovation era, 6th CIRP Global Web Conference, no date, 2018.

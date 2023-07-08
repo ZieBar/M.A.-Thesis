@@ -59,7 +59,7 @@ none
 |---|---|---|---|---|---|---|---|
 |0|0|0|0|0|0|0|0|
 
-**Overall Open-o-Meter Score: 0/8**
+>#### Overall Open-o-Meter Score: 0/8
 
 ### Notes
 The project explicitly states the **use** of OSH instead of the development of a monitoring system. Thus the low score is not in and of itself a defact. 
@@ -111,7 +111,7 @@ none
 |---|---|---|---|---|---|---|---|
 |0|0|0.5|0|0|0|0|0|
 
-**Overall Open-o-Meter Score: 0.5/8**
+>#### Overall Open-o-Meter Score: 0.5/8
 > Even though the Open-o-Meter doesn't allow for half points, the effort made in the article to show the components used and the working of the program is better than in other publications. Though the article is not open access...
 
 ### Notes
@@ -156,7 +156,7 @@ Even though the project explicitly promotes the use of OSH and the open sharing 
 |---|---|---|---|---|---|---|---|
 |0|0|0|0|0|0|0|0|
 
-**Overall Open-o-Meter Score: 0/8**
+> #### Overall Open-o-Meter Score: 0/8
 >Though explicitly states to develope an open source solution!
 
 ### Notes
@@ -235,7 +235,7 @@ An overall unremarkable article for the scope of this research. Methodology for 
 |---|---|---|---|---|---|---|---|
 |0|0|0|0|0|0|0|0|
 
-**Overall Open-o-Meter Score: 0/8**
+> #### Overall Open-o-Meter Score: 0/8
 
 ### Notes
 - not an open source project
@@ -284,9 +284,9 @@ https://doi.org/10.1016/j.future.2017.06.030.
 |---|---|---|---|---|---|---|---|
 |0|0|0|0|0|0|0|0|
 
-**Overall Open-o-Meter Score: 0/8**
+> #### Overall Open-o-Meter Score: 0/8
 
-### Remarks
+### Notes
 Does not use the term OSH
 
 ## 7 The smARTs_Museum_V1: an open hardware device for monitoring of Cultural Heritage indoor environments
@@ -309,34 +309,59 @@ https://doi.org/10.1016/j.ohx.2018.e00028.
 - "desinign, prototyping and experimenting low cost, easy to use and to customize, free and open source software and hradware device for remote monitoring of typical indoor Cultural Heritage  environments..."(p. 2)
 
 ### Results
-- "The standard defacto LoRa and Sigfox in the ISM [Industrial, Scientific and Medical - Band of frequencies]of 868 MHz were found to be suitable for monitoring artworks" (p. 579)
-- "The elected wireless technology copes with the need of reaching relative long distances and pass through thick walls that are typical scenarios in artwork containersor open archaeological sites." (p- 579)
-- "We propose using Infrastructure Manager and EC3 combined with cloud technologies to make the architecture open and reproducible so that anyone could deploy an equivalent virtual infrastructure on a public or on-premise cloud."
+- " The initial aim was to assemble a device being low cost, free and open software and hardware, having MCU and sensors easy to assemble and to replace, easy to program and to use, and showing Wi-Fi capacity for remote data acquisition. These objectives have been all accomplished satisfactorily." (p. 17)
+- "The project will remain free and open so to potentially constitute a solid base for implementations by other subjects;"
+- "The smARTS_Museum_V1 prototype has been successfully tested by starting the monitoring of the microenvironment of an exhibition case..."
+- "...the IoT platform ‘ThingSpeak’ was evaluated positively, but its intrinsic constraints suggested that different solutions for data storing and visualization should be adopted."
+- con: "...the Wi-Fi capability does not automatically ensure data acquisition: main constraints are the robustness of the wireless connection – often reduced by architectural and logistic complexity, or simply by a limited Wi-Fi range of the Wi-Fi station; and the fact that the Wi-Fi station should be always on." (p. 16)
+- pro: "conceiving each data logger as a standalone device" 
+- Radio frequencies => additional costs for gateway an server
+
+    -  Low cost: 70–90% cost reduction if compared to proprietary devices (see Section 4) 
+    - Customizable: easy replacement of components; easy to expand by adding additional sensors using free pins and I2C bus; easy to change and adapt the case shape and color to reduce visual impact in typical exhibition spaces 
+    - Durability and low maintenance: low power consumption allows long-term functioning, so limiting maintenance 
+    - Wi-Fi: remote data collection, and real-time visualization and management
+
 
 ### List of components
-- SHT3x
-- STM32L4x based on ARM Cortex-M (µCU) => "...due to it's wide adoption." (p.573)
-- CC1101EMK868-915 (radio module)
-- MultiConnect Conduit MTCDT-210A by Multitech (Gateway)
+- DH22
+- ESP8266 - 01
+- voltage regulator LDO MCP1700-3302E/TO
+- Battery Lithium TR 18650, 02600mAh 3.7 V
+- costum designed case to be printed on 3D-printer
 
 ### Technologies
-- LoRa and Sigfox
-- Mongo DB as cloud-service
+- Wifi connection
+- ThingsSpeak platform
 
 ### Other interesting information regarding this research
-- ICOM-CIDOC provides good practices on museum documentation based on ISO 21124:2014 (p. 576)
+- PLA-filament more eco friendly than PVC (p. 6)
 
 ### Open-o-Meter
 |License|Availability of files|Bill of materials|Assembly instructions|Editability|Version control system|Guidance on collaboration|Issue tracking system|
 |---|---|---|---|---|---|---|---|
-|1|1|1|0|0|1|0|1|
+|1|1|1|0|0.5|1|0|1|
 
-**Overall Open-o-Meter Score: 5/8**
+>#### Overall Open-o-Meter Score: 5.5/8
 
-### Remarks
-Does not use the term OSH
+some of the files are available in en editable format
 
+### Notes
+#### Article
+- does not list OHS as Keyword on title page
+- building instructions of some sort provided in article (describes important modifications)
+    - potential users probably not very well versed in programming and electronics => clear, easy to unserstand step by step instructions needed! => 0 points
+- methodology to verify imployability of DHT22 (in situ testing with testo 175 H2) is not suitable => reference not very precise, not tested in a controlled environment
+- wrong article cited about testing DHT 22 (its reference No. 31 not 30) + methodolgy in article not well described thus not reproducable
+- mention of development of open source-cloud server for cultural heritage monitoring is mentioned, cited  reference is a workshop, thus gives no further information
+- problems, which are mentioned in the text but not in the conclusion, i.e. time shift of measurements (at end of measurement period reached approximatly 4 minutes between P2 and P3 thus data needed to be processed manually (p. 10)) + loss of data due to platform, battery faliure (both mentioned in conclusion) => doesn't seem ready for deployment in longterm realworld applications
+
+#### Data available on OSF
+- Code needs to be updated => DHT 22 is read only once per cycle thus giving out only the data of the last reading (see data sheet)[^3]
+- timeshift could maybe be eliminated using the millis()-function, which measures the time since the stard of the program, thus eliminating wake-up, connection and measurement times
+- 
 
 # Citations
 [^1] **Bonvoisin et al. 2018:** Jérémy Bonvoisin, Robert Mies, Measuring Openness in Open Source Hardware with the Open-o-Meter, in: Envisaging the future manufacturing, design, technologies and systems in innovation era, 6th CIRP Global Web Conference, no date, 2018.
 [^2] Thanks to Christian Rudolf and Simon Rietschel from IoT-plan GmbH for sharing their knowledge and experience.
+[^3] See also the website of Robert J. Smith for reference https://www.kandrsmith.org/RJS/Misc/hygrometers.html (20230708)

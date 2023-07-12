@@ -38,8 +38,8 @@ No specification of the monitoring system.
 |Uncertainty|0.5 °C|2 %|3 %|3 %|10 %|
 |Reproducability|0,2 °C|1 %|2 %|2 %|5 %|
 |Resolution|0,1 °C|1 %|1 %|1 %|2,5 %|
-|Response time to complete 63% of step (no ventilation)|n.A.|required <= 2 min <br> desireble =< 1 |required <= 5 min <br> desireble =< 2 |required <= 5 min <br> desireble =< 2 |10min|
-|Stability (max. drift)|=< 0,2 °C p.a.| =< 2% p.a.|=< 2% p.a.|=< 2% p.a.|=< 5% p.m.
+|Response time to complete 63% of step (no ventilation)|n.A.|required ≤ 2 min <br> desireble ≤ 1 |required ≤ 5 min <br> desireble ≤ 2 |required ≤ 5 min <br> desireble ≤ 2 |10min|
+|Stability (max. drift)|≤ 0,2 °C p.a.| ≤ 2% p.a.|≤ 2% p.a.|≤ 2% p.a.|≤ 5% p.m.
 |inspection intervalls|6 months| device: 1 year <br> textile: daily or before use| 1 year| 1 year| 3 months|
 |use cases| calibration, Labroratory| 1. inspection of other sensors <br> 2. occasional *in situ* measuremnts| occasional *in situ* measuremnents or regular monitoring|occasional *in situ* measuremnents or regular monitoring|only in  acceptional ases for vissual inspection|
 

@@ -120,7 +120,13 @@ The second solution to be tested was potassium carbonate. Dissolving the salt in
 A quick internet search supported this observation. Potassium carbonate is therefore unsiuted for this experiment, as the solution could effect its the thermal stability.
 
 
+### 13th of July
 
+The experiment in the climat chamber was terminated. The programm written for the chamber was not suitable for th experiment, as the chamber, instead of trying to reach goal humidity in the shortest time possibile and than holding it, linearly approached the goal values in three hours time, and than holding it for 30 minutes producing an unstable environment. The final experiment must be programmed to hold the goal vlaues for 3h without an "approach intervall". 
+The first idea of starting at 10 % and 20°C reaching the first measuement point at 15 % and then progressing in steps of 15 % until reaching 90 % relative Humidity and then stepping back down to 15%, while holding the Temperature was not possibile. Though 10 % relative Humidity lies within the specifications of the device, this is only possibile at temperatures above 21 °C according to the handbook. In reality the machine struggled to reach a relative humidity below 30 %, which, according to the handbook should be possibile.
+As comfort temperatures are rising and humidities below 30 % are improbable in central european climate (Holl) the final experiment will be executed at 25 °C, sarting at 30 % rH rising to 35 % as first measuring point, holding for 3 hours. After words the machine raises rH to 45 %, again holding for 3 h and thusly progressing afterwards in steps of 15% until reaching 90 % rH.
+The first trial took over 38 hours, (checked upon experiment only after 48 h) which completly depleeded the 10.000 mAh powernbank and 9V-battery-block. Though values throughout the whole experiment where taken without any disruptions.
+The final experiment, due to the lack of the 30 min waiting period and the skipping of steps will only take about 30 hours. 
 
 [^1]: telefon call on May 31st 2023
 [^2]: MostraLog calibration boxes manual

@@ -1,4 +1,4 @@
-Experiment-Vorschlag
+Experiment-Beschreibung
 ===
 
 # 1 Einleitung

@@ -121,7 +121,7 @@ Als erstes muss die Angleichszeit bestimmt werden, in der das Feuchtigkeitsgleic
 Hierfür wird die Salzlösung angesetzt, die Füße eingesetzt und der Testo H175 mittig platziert. Visuell kann über das Display des Referenzgerätes das Erreichen der Zielfeuchte kontrolliert und die Daten anschließend ausgewertet werden.
 Der Vorgang wird in jeder Box wiederholt. Ggf. kann der Versuch mit und ohne Membran wiederholt werden.
 
-Nach DKD-R 5-8 wird die angleich und Messzeitraum wiefolgt bestimmt:[^5]
+Nach DKD-R 5-8 wird die Angleichszeit wiefolgt bestimmt:[^5]
 
 ![Angleichszeit und Messzeitraum nach DKD-R 5-8](https://github.com/ZieBar/M.A.-Thesis/blob/9bfccf15ac7a891084de5ca83df9ba364f1dc509/Experiment/Abbildungen/Angleichzeit_DKD.JPG)
 Abbildung aus der DKD-R 5-8. This picture is lisenced under cc by-nc-nd-license.
@@ -133,7 +133,7 @@ II) Wartezeit von mind. 30 min
 III) Messwertaufnahme, mind. 10 Messwerte in 10 Minuten  
 IV) Wartezeit von 10 Minuten  
 V) Wiederholung von III  
-Ist die Messabweichung zwischen III und V kleiner als 2 0% der die angestrebte Messunsicherheit, ist eine ausreichende Angelichszeit eingehalten worden.
+Ist die Messabweichung zwischen III und V kleiner als 20 % der die angestrebte Messunsicherheit, ist eine ausreichende Angelichszeit eingehalten worden.
 
 
 Da weder ein Heiz- noch ein Kühlelement im Versuchsaufbau vorgesehen sind, wird in diesem Fall eine Temperatur von 21°C als Zieltemperatur und 33,0 % relativer Luftfeuchtigkeit. 

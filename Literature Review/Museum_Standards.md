@@ -66,4 +66,19 @@ To register a deviation of a value from maufactures specification is the whole s
 Reproduzierbarkeit: Fähigkeit eines Messgeräts, bei aufeinanderfolgenden Messungen derselben Messgröße unter gleichen Bedingungen innerhalb gewisser Grenzen den gleichen Messwert erneut zu erzielen
 Messunsicherheit: die Messunsicherheit ist eine nicht-negative Größe, welche die Streuung von Werten beschreibt, die einer bestimmten Messgröße zugeschrieben wird. 
 
+# ASHRAE 2019 Chapter 24
+
+## Requirements on environment
+- 6 Categories:
+
+|Category|Longterm outer limits                  |seasonal adjustment          |short-Term fluctutations|
+|--------|---------------------------------------|-----------------------------|------------------------|
+|AA      |>= 35 % rH, <=65 % rH, >= 10°C, <= 25°C|no change in rH +/- 5 K      |+/- 5 % rH, +/- 2 K     |
+|A1      |>= 35 % rH, <=65 % rH, >= 10°C, <= 25°C|+/- 10 % rH, + 5 K, -10 K    |+/- 5 % rH, +/- 2 K     |
+|A2      |>= 35 % rH, <=65 % rH, >= 10°C, <= 25°C|no change in rH, + 5 K, -10 K|+/- 10 % rH, +/- 2 K    |
+|B       |>= 30 % rH, <=70 % rH, <= 30°C         |+/- 10 % rH, + 10 K, -20 K   |+/- 10 % rH, +/- 5 K    |
+|C       |>= 25 % rH, <=75 % rH, <= 40°C         |            ---              |not continually over 65% rH and rarly over30°C|
+|D       | <=75 % rH                             |                             |not continually over 65% rH|
+
+## Requirements on Monitoring
 

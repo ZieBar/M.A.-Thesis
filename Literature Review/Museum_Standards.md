@@ -4,14 +4,8 @@ Requirements by Standard for Museums and Archives
 This file contains notes on different standards, position papers and templates for best practices that on the enviornment (especcially on relative Humidity) of museums and archives.
 The differtent documents are analized regarding the humidity values that should be maintained and the requirements on the monitoring systems.
 
-# Deutscher Museums Bund - Facility Report
-> Template
-Chapter 7.3 is concerned with the environment of the exhibition and its monitoring. 
-- no specific values given
-- asks if environmental conditions (relative humidity and temperature) are monitored
-    - more specific questions on calibration of the monitoring system, as well as its specifications are posed
 
-# Deutscher Museums Bund - Empfehlung zur Energieeinsparung durch die Einführung eines erweiterten Klimakorridors bei der Museumsklimatisierung
+# 1 Deutscher Museums Bund - Empfehlung zur Energieeinsparung durch die Einführung eines erweiterten Klimakorridors bei der Museumsklimatisierung
 > Recommendation <br>
 > written in September 2022 in view of the energy crisis due to the attack of Russia on Ukrain
 
@@ -22,11 +16,11 @@ Chapter 7.3 is concerned with the environment of the exhibition and its monitori
 
 No specification of the monitoring system.
 
-# DIN 15757 - Erhaltung kulturellen Erbes - Festlegungen für Temperatur und relative Luftfeuchte zur Begrenzung klimabedingter mechanischer beschädigungen an organischen hygroskopischen Materialien - September 2010
+# 2 DIN 15757 - Erhaltung kulturellen Erbes - Festlegungen für Temperatur und relative Luftfeuchte zur Begrenzung klimabedingter mechanischer beschädigungen an organischen hygroskopischen Materialien - September 2010
 
 > Standard
 
-# EN 16242:2012 Conservation of cultural heritage - Procedures and instruments for measuring humidity in the air and moisture exchanges between air and cultural property (german translation)
+# 3 EN 16242:2012 Conservation of cultural heritage - Procedures and instruments for measuring humidity in the air and moisture exchanges between air and cultural property (german translation)
 
 > Standard
 
@@ -66,7 +60,7 @@ To register a deviation of a value from maufactures specification is the whole s
 Reproduzierbarkeit: Fähigkeit eines Messgeräts, bei aufeinanderfolgenden Messungen derselben Messgröße unter gleichen Bedingungen innerhalb gewisser Grenzen den gleichen Messwert erneut zu erzielen
 Messunsicherheit: die Messunsicherheit ist eine nicht-negative Größe, welche die Streuung von Werten beschreibt, die einer bestimmten Messgröße zugeschrieben wird. 
 
-# ASHRAE 2019 Chapter 24
+# 4 ASHRAE 2019 Chapter 24
 
 ## Requirements on environment
 - 6 Categories:
@@ -80,5 +74,18 @@ Messunsicherheit: die Messunsicherheit ist eine nicht-negative Größe, welche d
 |C       |>= 25 % rH, <=75 % rH, <= 40°C         |            ---              |not continually over 65% rH and rarly over30°C|
 |D       | <=75 % rH                             |                             |not continually over 65% rH|
 
-## Requirements on Monitoring
+## Requirements on Monitoring-System
+- Sensor accuracy +/- 0.2 K, +/- 2 % rH or better
+- ideally dew-point sensors
+- Placement: in collection spaces
+- standalone Dataloggers to evaluate performance
+- Calibration: "Institutional staff should be provided with guidance for eventual replacment or recalibration to provide continued accuracy in operation" (p. 24.33)
+- factory recalibration or replacment better than field calibration
 
+
+# Deutscher Museums Bund - Facility Report
+> Template
+Chapter 7.3 is concerned with the environment of the exhibition and its monitoring. 
+- no specific values given
+- asks if environmental conditions (relative humidity and temperature) are monitored
+    - more specific questions on calibration of the monitoring system, as well as its specifications are posed

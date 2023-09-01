@@ -95,6 +95,17 @@ Section C "Further Research":
 "research on the following topics would be helpful: 
 i) The sophisticated management of the environment within big buildings, using electronic monitoring of every space within the buildings concerned, and appropriate technology for control of air circulation and temperature to keep the overall environment reasonably stable and within  acceptable parameters focussing on simple systems that are easy to maintain."
 
+# 6    Canadian Conservation Insitute - Environmental guidlines for museums
+## Requirements on environment
+
+basically follows ASHRAE
+
+## Requirements on Monitoring Systems
+
+- Need for a lot of different measuring points, as rH May vary within a room
+- cost of >100 $
+
+
 
 # Deutscher Museums Bund - Facility Report
 > Template

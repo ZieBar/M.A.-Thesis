@@ -105,7 +105,19 @@ basically follows ASHRAE
 - Need for a lot of different measuring points, as rH May vary within a room
 - cost of >100 $
 
+# 7 Garry Thomson The Museum Environment
+## Requirements on environment
 
+2 Classes
+|Class|minimum|maximum|Setpoint|shortterm fluctuations|
+|1    |40 %   |70 %   |
+|2    |-|-|50 or 55 %| +/- 5%|
+(taken from clkimat for collections 2012)
+
+
+## Requirements on Monitoring Systems
+- sling psychrometer for calibration (error of +- 2%)
+- electronic sensors: ideally 3 per room for redundancy (repeated by Patfield 2007)
 
 # Deutscher Museums Bund - Facility Report
 > Template
@@ -113,3 +125,6 @@ Chapter 7.3 is concerned with the environment of the exhibition and its monitori
 - no specific values given
 - asks if environmental conditions (relative humidity and temperature) are monitored
     - more specific questions on calibration of the monitoring system, as well as its specifications are posed
+ 
+# General remarks
+

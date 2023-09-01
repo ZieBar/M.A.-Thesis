@@ -82,6 +82,19 @@ Messunsicherheit: die Messunsicherheit ist eine nicht-negative Größe, welche d
 - Calibration: "Institutional staff should be provided with guidance for eventual replacment or recalibration to provide continued accuracy in operation" (p. 24.33)
 - factory recalibration or replacment better than field calibration
 
+# 5    National Museum Directors Conference guiding principles for reducing museums carbon footprint
+
+## Requirements on environment
+||max.|min.|maximum fluctuation|
+|---|---|---|---|
+|Temperature|16 °C|25 °C|---|
+|relative Humidity|40 %|60 %|---|
+
+## Requirements on Monitoring Systems
+Section C "Further Research":
+"research on the following topics would be helpful: 
+i) The sophisticated management of the environment within big buildings, using electronic monitoring of every space within the buildings concerned, and appropriate technology for control of air circulation and temperature to keep the overall environment reasonably stable and within  acceptable parameters focussing on simple systems that are easy to maintain."
+
 
 # Deutscher Museums Bund - Facility Report
 > Template

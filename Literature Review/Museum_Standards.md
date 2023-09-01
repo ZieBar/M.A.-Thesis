@@ -127,4 +127,5 @@ Chapter 7.3 is concerned with the environment of the exhibition and its monitori
     - more specific questions on calibration of the monitoring system, as well as its specifications are posed
  
 # General remarks
+In the more recent literature (since 2000) only EN 16242:2012 gives actual guidance on measuring equipment. In most standards, recommendations or articles on relative humidity the measuring equipment is virtually never talked about in detail. This leaves open a lot of questions and makes it difficult for practitioners to choose and deploy a system. Also there is no guidance on developing a documentation and workflow for the maintanence of equipment as well as analysis and storage of the data. DIN 15757 gives some guidance on analysis, but this is more project focused and not meant as a permanent task. Only Patfield talks about longterm storage of data. Also the EN 16242:2012 fails to give information wether the uncertainty inclueds hysterisis.
 
